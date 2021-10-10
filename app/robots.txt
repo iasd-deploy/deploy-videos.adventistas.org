@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /pt/*
+Allow: /es/*
+Allow: /pt/wp-admin/admin-ajax.php
+Allow: /es/wp-admin/admin-ajax.php
+
+Disallow: /pt/wp-admin/
+Disallow: /es/wp-admin/
+Disallow: /pt/wp-includes/
+Disallow: /es/wp-includes/
+Disallow: /pt/wp-content/plugins/
+Disallow: /es/wp-content/plugins/
+Disallow: /pt/wp-content/themes/
+Disallow: /es/wp-content/themes/
+
+User-agent: SemrushBot
+Allow: *
+
+
+Sitemap: http://videos.adventistas.org/es/sitemap_index.xml
+Sitemap: http://videos.adventistas.org/pt/sitemap_index.xml

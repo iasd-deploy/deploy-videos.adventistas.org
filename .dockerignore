@@ -1,0 +1,6 @@
+**/*.DS_Store
+.github
+task-definition.json
+update.sh
+**/*.git
+**/*.e*

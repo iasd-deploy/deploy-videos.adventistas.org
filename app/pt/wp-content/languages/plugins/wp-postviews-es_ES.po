@@ -1,0 +1,272 @@
+# Translation of Plugins - WP-PostViews - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP-PostViews - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-25 22:29:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP-PostViews - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://lesterchan.net"
+msgstr "https://lesterchan.net"
+
+#. Author of the plugin
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Description of the plugin
+msgid "Enables you to display how many times a post/page had been viewed."
+msgstr "Te permite mostrar cuántas veces se ha visto una entrada/página."
+
+#. Plugin URI of the plugin
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "https://lesterchan.net/portfolio/programming/php/"
+
+#: wp-postviews.php:962
+msgid "* If you are not using any category statistics, you can ignore it."
+msgstr "* Si no usas estadísticas por categorías, puedes ignorar esto."
+
+#: wp-postviews.php:959
+msgid "Separate mutiple categories with commas."
+msgstr "Separar múltiples categorías con comas."
+
+#: wp-postviews.php:958
+msgid "Category IDs:"
+msgstr "IDs de categoría:"
+
+#: wp-postviews.php:955
+msgid "<strong>0</strong> to disable."
+msgstr "<strong>0</strong> para desactivar."
+
+#: wp-postviews.php:954
+msgid "Maximum Post Title Length (Characters):"
+msgstr "Longitud del título de la entrada (caracteres):"
+
+#: wp-postviews.php:951
+msgid "No. Of Records To Show:"
+msgstr "Número de registros a mostrar:"
+
+#: wp-postviews.php:944
+msgid "%s Only"
+msgstr "Solamente %s"
+
+#: wp-postviews.php:941
+msgid "All"
+msgstr "Todos"
+
+#: wp-postviews.php:939
+msgid "Include Views From:"
+msgstr "Contabilizar las lecturas de:"
+
+#: wp-postviews.php:934
+msgid "Most Viewed By Category"
+msgstr "Más leídos por categoría"
+
+#: wp-postviews.php:933
+msgid "Most Viewed"
+msgstr "Más leídos"
+
+#: wp-postviews.php:931
+msgid "Least Viewed By Category"
+msgstr "Menos leídos por categoría"
+
+#: wp-postviews.php:930
+msgid "Least Viewed"
+msgstr "Menos leídos"
+
+#: wp-postviews.php:928
+msgid "Statistics Type:"
+msgstr "Tipo de estadísticas:"
+
+#: wp-postviews.php:925
+msgid "Title:"
+msgstr "Título:"
+
+#: wp-postviews.php:864
+msgid "WP-PostViews views statistics"
+msgstr "Estadísticas de WP-PostViews"
+
+#: wp-postviews.php:813 wp-postviews.php:865 wp-postviews.php:913
+msgid "Views"
+msgstr "Lecturas"
+
+#: wp-postviews.php:751
+msgid "<strong>%s</strong> view was generated."
+msgid_plural "<strong>%s</strong> views were generated."
+msgstr[0] "<strong>%s</strong> lectura generada."
+msgstr[1] "<strong>%s</strong> lecturas generadas."
+
+#: wp-postviews.php:737 wp-postviews.php:739 wp-postviews.php:769
+msgid "%s Most Viewed Page"
+msgid_plural "%s Most Viewed Pages"
+msgstr[0] "%s Página más leída"
+msgstr[1] "%s Páginas  más leídas"
+
+#: wp-postviews.php:732 wp-postviews.php:734 wp-postviews.php:763
+msgid "%s Most Viewed Post"
+msgid_plural "%s Most Viewed Posts"
+msgstr[0] "%s Entrada más leída"
+msgstr[1] "%s Entradas más leídas"
+
+#. Plugin Name of the plugin
+#: wp-postviews.php:719 wp-postviews.php:721 wp-postviews.php:749
+msgid "WP-PostViews"
+msgstr "WP-PostViews"
+
+#: wp-postviews.php:286 wp-postviews.php:347 wp-postviews.php:409
+#: wp-postviews.php:471 wp-postviews.php:532 wp-postviews.php:594
+msgid "N/A"
+msgstr "N/A"
+
+#: wp-postviews.php:43
+msgid "PostViews"
+msgstr "PostViews"
+
+#: postviews-options.php:204
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: postviews-options.php:198
+msgid "Don't display on other pages"
+msgstr "No mostrar en otras páginas"
+
+#: postviews-options.php:193
+msgid "Other Pages:"
+msgstr "Otras páginas:"
+
+#: postviews-options.php:188
+msgid "Don't display on search pages"
+msgstr "No mostrar en la páginas de busqueda"
+
+#: postviews-options.php:183
+msgid "Search Pages:"
+msgstr "Páginas de búsqueda:"
+
+#: postviews-options.php:178
+msgid "Don't display on archive pages"
+msgstr "No mostrar en la páginas de archivo"
+
+#: postviews-options.php:173
+msgid "Archive Pages:"
+msgstr "Páginas de Archivo:"
+
+#: postviews-options.php:168
+msgid "Don't display on pages"
+msgstr "No mostrar en las páginas"
+
+#: postviews-options.php:163
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: postviews-options.php:158
+msgid "Don't display on single posts"
+msgstr "No mostrar en las entradas individuales"
+
+#: postviews-options.php:153
+msgid "Single Posts:"
+msgstr "Entradas únicas:"
+
+#: postviews-options.php:148
+msgid "Don't display on home page"
+msgstr "No mostrar en la página de inicio"
+
+#: postviews-options.php:147 postviews-options.php:157
+#: postviews-options.php:167 postviews-options.php:177
+#: postviews-options.php:187 postviews-options.php:197
+msgid "Display to registered users only"
+msgstr "Mostrar solamente a usuarios registrados"
+
+#: postviews-options.php:146 postviews-options.php:156
+#: postviews-options.php:166 postviews-options.php:176
+#: postviews-options.php:186 postviews-options.php:196
+msgid "Display to everyone"
+msgstr "Mostrar a todos"
+
+#: postviews-options.php:143
+msgid "Home Page:"
+msgstr "Página de inicio:"
+
+#: postviews-options.php:140
+msgid "These options specify where the view counts should be displayed and to whom. \tBy default view counts will be displayed to all visitors. Note that the theme files must contain a call to <code>the_views()</code> in order for any view count to be displayed."
+msgstr "Estas opciones especifican la visualización de los contadores de visitas. \tPor defecto se mostrarán a todos los visitantes. Ten en cuenta que los archivos del tema deben contener una llamada al código <code>the_views()</code> para que se muestre cualquier contador de vistas."
+
+#: postviews-options.php:139
+msgid "Display Options"
+msgstr "Opciones de Visualización"
+
+#: postviews-options.php:120
+msgid "Most Viewed Template:"
+msgstr "Plantilla de más leídos:"
+
+#: postviews-options.php:112 postviews-options.php:132
+msgid "Restore Default Template"
+msgstr "Restaurar predeterminado"
+
+#: postviews-options.php:109 postviews-options.php:121
+msgid "Allowed Variables:"
+msgstr "Variables permitidas:"
+
+#: postviews-options.php:108
+msgid "Views Template:"
+msgstr "Mostrar en el tema:"
+
+#: postviews-options.php:99
+msgid "You have caching enabled for your WordPress installation, by default WP-PostViews will use AJAX to update the view count. However in some cases, you might not want it."
+msgstr "Has habilitado el almacenamiento en caché para tu instalación de WordPress, de manera predeterminada, WP-PostViews usará AJAX para actualizar el recuento de vistas. Sin embargo, en algunos casos, es posible que no quieras."
+
+#: postviews-options.php:92
+msgid "Use AJAX To Update Views:"
+msgstr "Usar AJAX para actualizar las visualizaciones:"
+
+#: postviews-options.php:86 postviews-options.php:96
+msgid "Yes"
+msgstr "Sí"
+
+#: postviews-options.php:85 postviews-options.php:95
+msgid "No"
+msgstr "No"
+
+#: postviews-options.php:82
+msgid "Exclude Bot Views:"
+msgstr "Excluir los Bots de Internet:"
+
+#: postviews-options.php:77
+msgid "Registered Users Only"
+msgstr "Solo usuarios registrados"
+
+#: postviews-options.php:76
+msgid "Guests Only"
+msgstr "Anónimos"
+
+#: postviews-options.php:75
+msgid "Everyone"
+msgstr "Todos"
+
+#: postviews-options.php:72
+msgid "Count Views From:"
+msgstr "Contabilizar las lecturas de:"
+
+#: postviews-options.php:58 wp-postviews.php:993
+msgid "views"
+msgstr "lecturas"
+
+#: postviews-options.php:55 wp-postviews.php:992
+msgid "%VIEW_COUNT% views"
+msgstr "%VIEW_COUNT% lecturas"
+
+#: postviews-options.php:38
+msgid "No Post Views Option Updated"
+msgstr "Las opciones de WP-PostViews no están actualizadas"
+
+#: postviews-options.php:33
+msgid "Updated"
+msgstr "Actualizado"
+
+#: postviews-options.php:28 postviews-options.php:69
+msgid "Post Views Options"
+msgstr "Opciones de lectura de entradas"
