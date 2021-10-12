@@ -19,8 +19,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        token: ${{ github.token }}
+        # token: ${{ github.token }}
         submodules: true
+        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     # Update references
     - name: Git Sumbodule Update
