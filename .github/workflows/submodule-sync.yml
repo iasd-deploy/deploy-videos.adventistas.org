@@ -16,15 +16,19 @@ jobs:
 
     steps:
     # Checkout the repository to the GitHub Actions runner
+
+    - run: echo -e '[url "https://github.com/"]\n  insteadOf = "git@github.com:"' >> ~/.gitconfig
+    - run: echo -e '[url "https://emendonca@bitbucket.org/"]\n  insteadOf = "git@bitbucket.org:"' >> ~/.gitconfig
+    
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        # token: ${{ github.token }}
+        token: ${{ secrets.CI_TOKEN }}
         submodules: 'recursive'
-        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+        # ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     # Update references
-    - name: Git Sumbodule Update
-      run: |
-        git pull --recurse-submodules
-        git submodule update --remote --recursive
+    # - name: Git Sumbodule Update
+    #   run: |
+    #     git pull --recurse-submodules
+    #     git submodule update --remote --recursive
