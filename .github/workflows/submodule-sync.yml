@@ -23,12 +23,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        token: ${{ secrets.CI_TOKEN }}
+        token: ${{ github.token }}
         submodules: 'recursive'
         # ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     # Update references
-    # - name: Git Sumbodule Update
-    #   run: |
-    #     git pull --recurse-submodules
-    #     git submodule update --remote --recursive
+    - name: Git Sumbodule Update
+      run: |
+        git pull --recurse-submodules
+        git submodule update --remote --recursive
