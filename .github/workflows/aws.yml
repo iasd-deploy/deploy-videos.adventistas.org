@@ -1,7 +1,8 @@
-name: 'Submodules Sync'
+name: 'Deploy ECS'
 
 on:
-  # Allows you to run this workflow manually from the Actions tab or through HTTP API
+  push:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
