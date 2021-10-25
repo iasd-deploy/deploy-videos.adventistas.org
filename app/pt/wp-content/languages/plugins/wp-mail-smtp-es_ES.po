@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-04 12:17:22+0000\n"
+"PO-Revision-Date: 2021-10-18 16:31:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,9 +11,111 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: Plugins - WP Mail SMTP by WPForms - Stable (latest release)\n"
 
+#. translators: %s - URL to wpmailsmtp.com doc page for stmp.com.
+#: src/Providers/SMTPcom/Options.php:50
+msgid "To get started, read our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">SMTP.com documentation</a>."
+msgstr "Para empezar lee nuestra <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">documentación de SMTP.com</a>."
+
+#. translators: %s - URL to smtp.com site.
+#: src/Providers/SMTPcom/Options.php:42
+msgid "<strong><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">SMTP.com</a> is one of our recommended mailers.</strong> It's a transactional email provider that's currently used by 100,000+ businesses. SMTP.com is an established brand that's been offering email services for more than 20 years.<br><br>SMTP.com offers a free 30-day trial that allows you to send up to 50,000 emails."
+msgstr "<strong><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">SMTP.com</a> es uno de nuestros servicios de correo recomendados.</strong> Es un proveedor de correo electrónico transaccional utillizado por más de 100.000 empresas. SMTP.com es una marca consolidada que ha estado ofreciendo servicios de correo electrónico más de 20 años.<br><br>SMTP.com ofrece una prueba de 30 días que te permite enviar hasta 50.000 correos electrónicos."
+
+#. translators: %s - URL to SMTP documentation.
+#: src/Providers/SMTP/Options.php:29
+msgid "The Other SMTP option lets you send emails through an SMTP server instead of using a provider's API. This is easy and convenient, but it's less secure than the other mailers. Please note that your provider may not allow you to send a large number of emails. In that case, please use a different mailer.<br><br>To get started, read our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Other SMTP documentation</a>."
+msgstr "La opción «Otro SMTP» te permite enviar correos electrónicos a través de un servidor SMTP en lugar de utilizar la API de un proveedor. Esto es fácil y cómodo, pero es menos seguro que con los otros servidores de correo. Ten en cuenta que tu proveedor puede no permitirte enviar un gran número de correos electrónicos. En ese caso, por favor, utiliza un servidor de correo diferente.<br><br>Para empezar, lee nuestra <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">documentación sobre otros SMTP</a>."
+
+#. translators: %2$s - URL to wpmailsmtp.com doc.
+#: src/Providers/Sendinblue/Options.php:35
+msgid "To get started, read our <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Sendinblue documentation</a>."
+msgstr "Para empezar lee nuestra <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">documentación de Sendinblue</a>."
+
+#. translators: %1$s - URL to sendinblue.com site.
+#: src/Providers/Sendinblue/Options.php:32
+msgid "<strong><a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Sendinblue</a> is one of our recommended mailers.</strong> It's a transactional email provider with scalable price plans, so it's suitable for any size of business.<br><br>If you're just starting out, you can use Sendinblue's free plan to send up to 300 emails a day. You don't need to use a credit card to try it out. When you're ready, you can upgrade to a higher plan to increase your sending limits."
+msgstr "<strong><a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Sendinblue</a> es uno de nuestros proveedores de correo recomendados.</strong> Es un proveedor de correo electrónico transaccional con planes de precios escalables, por lo que es adecuado para cualquier tamaño de negocio.<br><br>Si estás empezando, puedes utilizar el plan gratuito de Sendinblue para enviar hasta 300 correos electrónicos al día. No es necesario utilizar una tarjeta de crédito para probarlo. Cuando estés preparado, puedes pasar a un plan superior para aumentar tus límites de envío."
+
+#. translators: %1$s - URL to sendgrid.com; %2$s - URL to Sendgrid
+#. documentation on wpmailsmtp.com
+#: src/Providers/Sendgrid/Options.php:30
+msgid "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">SendGrid</a> is a popular transactional email provider that sends more than 35 billion emails every month. If you're just starting out, the free plan allows you to send up to 100 emails each day without entering your credit card details.<br><br>To get started, read our <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">SendGrid documentation</a>."
+msgstr "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">SendGrid</a> es un popular proveedor de correo electrónico transaccional que envía más de 35 mil millones de correos electrónicos cada mes. Si estás empezando, el plan gratuito te permite enviar hasta 100 correos electrónicos cada día sin introducir los datos de tu tarjeta de crédito.<br><br>Para empezar, lee nuestra <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">documentación de SendGrid</a>."
+
+#. translators: %s - URL to Postmark documentation on wpmailsmtp.com
+#: src/Providers/Postmark/Options.php:131
+msgid "Message Stream ID is <strong>optional</strong>. By default <strong>outbound</strong> (Default Transactional Stream) will be used. More information can be found in our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Postmark documentation</a>."
+msgstr "El ID del flujo de mensajes es <strong>opcional</strong>. Por defecto se utilizará <strong>salida</strong> (flujo transaccional por defecto). Puedes encontrar más información en nuestra <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">documentación de Postmark</a>."
+
+#: src/Providers/Postmark/Options.php:103
+msgid "Get Server API Token"
+msgstr "Obtener el token de la API del servidor"
+
+#. translators: %s - Server API Token link.
+#: src/Providers/Postmark/Options.php:101
+msgid "Follow this link to get a Server API Token from Postmark: %s."
+msgstr "Sigue este enlace para obtener un token de la API del servidor de Postmark: %s."
+
 #: src/Providers/Postmark/Options.php:52
 msgid "Postmark"
 msgstr "Postmark"
+
+#. translators: %2$s - URL to wpmailsmtp.com doc.
+#: src/Providers/Postmark/Options.php:33
+msgid "To get started, read our <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Postmark documentation</a>."
+msgstr "Para empezar lee nuestra <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">documentación de Postmark</a>."
+
+#. translators: %1$s - URL to postmarkapp.com site.
+#: src/Providers/Postmark/Options.php:30
+msgid "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Postmark</a> is a transactional email provider that offers great deliverability and accessible pricing for any business. You can start out with the free trial that allows you to send 100 test emails each month via its secure API."
+msgstr "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Postmark</a> es un proveedor de correo electrónico transaccional que ofrece una gran capacidad de entrega y precios accesibles para cualquier negocio. Puedes empezar con la prueba gratuita que te permite enviar 100 correos electrónicos de prueba cada mes a través de su API segura."
+
+#: src/Providers/Postmark/Mailer.php:435
+msgid "Message Stream ID:"
+msgstr "ID del flujo de mensajes:"
+
+#: src/Providers/Postmark/Mailer.php:433
+msgid "Server API Token:"
+msgstr "Token de la API del servidor:"
+
+#: src/Providers/Postmark/Mailer.php:397
+msgid "503 - The Postmark API is currently unavailable, please try sending your request later."
+msgstr "503 - La API de Postmark no está disponible actualmente, prueba a enviar más tarde tu solicitud."
+
+#: src/Providers/Postmark/Mailer.php:393
+msgid "500 - Internal Server Error: This is an issue with Postmark’s servers processing your request. In most cases the message is lost during the process, and Postmark is notified so that they can investigate the issue."
+msgstr "500 - Error interno del servidor: Se trata de un problema con los servidores de Postmark que procesan tu solicitud. En la mayoría de los casos, el mensaje se pierde durante el proceso y se notifica a Postmark para que pueda investigar el problema."
+
+#: src/Providers/Postmark/Mailer.php:389
+msgid "401 - Unauthorized: Missing or incorrect Server API Token. Please verify that you used the correct Server API Token."
+msgstr "401 - No autorizado: Falta o es incorrecto el token de la API del servidor. Por favor, comprueba que has utilizado el token de la API del servidor correcto."
+
+#. translators: %1$s - URL to mailgun.com; %2$s - URL to Mailgun documentation
+#. on wpmailsmtp.com
+#: src/Providers/Mailgun/Options.php:29
+msgid "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Mailgun</a> is a transactional email provider that offers a generous 3-month free trial. After that, it offers a 'Pay As You Grow' plan that allows you to pay for what you use without committing to a fixed monthly rate.<br><br>To get started, read our <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Mailgun documentation</a>."
+msgstr "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Mailgun</a> es un proveedor de correo electrónico transaccional que ofrece una generosa prueba gratuita de 3 meses. Después, ofrece un plan 'Paga a medida que creces' que te permite pagar por lo que usas sin comprometerte a una tarifa mensual fija.<br><br>Para empezar, lee nuestra <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">documentación de Mailgun</a>."
+
+#. translators: %s - URL to our Gmail doc.
+#: src/Providers/Gmail/Options.php:36
+msgid "Our Gmail mailer works with any Gmail or Google Workspace account via the Google API. You can send WordPress emails from your main email address or a Gmail alias, and it's more secure than connecting to Gmail using SMTP credentials. The set-up steps are more technical than other options, so we created a detailed guide to walk you through the process.<br><br>To get started, read our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Gmail documentation</a>."
+msgstr "Nuestro servidor de correo de Gmail funciona con cualquier cuenta de Gmail o Google Workspace a través de la API de Google. Puedes enviar correos electrónicos de WordPress desde tu dirección de correo electrónico principal o desde un alias de Gmail, y es más seguro que conectarse a Gmail utilizando credenciales SMTP. Los pasos de configuración son más técnicos que los de otras opciones, por lo que hemos creado una guía detallada para guiarte en el proceso.<br><br>Para empezar, lee nuestra <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">documentación sobre Gmail</a>."
+
+#: src/Admin/Pages/MiscTab.php:221
+msgid "Remove ALL WP Mail SMTP data upon plugin deletion. All settings will be unrecoverable."
+msgstr "Eliminar TODOS los datos de WP Mail SMTP al borrar el plugin. Todos los ajustes serán irrecuperables."
+
+#: src/Admin/Pages/MiscTab.php:204
+msgid "Hide the WP Mail SMTP Dashboard Widget."
+msgstr "Ocultar el widget de escritorio de WP Mail SMTP."
+
+#: src/Admin/Pages/MiscTab.php:164
+msgid "Hide warnings alerting of email delivery errors."
+msgstr "Ocultar las advertencias de alerta de errores de entrega de correo electrónico."
+
+#: src/Admin/Pages/MiscTab.php:138
+msgid "Hide plugin announcements and update details."
+msgstr "Ocultar los anuncios y detalles de actualizaciones del plugin."
 
 #: src/Admin/Pages/MiscTab.php:84
 msgid "Stop sending all emails."
@@ -23,25 +125,110 @@ msgstr "Dejar de enviar todos los correos electrónicos."
 msgid "Export logs to CSV, XLSX, or EML"
 msgstr "Exportar registros a CSV, XLSX o EML"
 
+#. translators: %s - WPMailSMTP.com Upgrade page URL.
+#: src/Admin/Pages/ControlTab.php:242
+msgid "Email controls allow you to manage the automatic notifications you receive from your WordPress website. With the flick of a switch, you can reduce inbox clutter and focus on the alerts that matter the most. It's easy to disable emails about comments, email or password changes, WordPress updates, user registrations, and personal data requests. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Upgrade to WP Mail SMTP Pro!</a>"
+msgstr "Los controles de correo electrónico te permiten gestionar los avisos automáticos que recibes de tu web WordPress. Con un simple toque, puedes reducir el desorden de la bandeja de entrada y centrarte en las alertas que más importan. Es fácil desactivar los correos electrónicos sobre comentarios, cambios de correo electrónico o de contraseña, actualizaciones de WordPress, registros de usuarios y solicitudes de datos personales. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">¡Actualiza a WP Mail SMTP Pro!</a>"
+
+#: src/Admin/Pages/ControlTab.php:197
+msgid "User activated their new site, or site was added from Network Admin -> Sites -> Add New. Sent to Site Admin."
+msgstr "El usuario activó su nuevo sitio, o el sitio se añadió desde Administrador de la red -> Sitios -> Añadir nuevo. Enviado al administrador del sitio."
+
+#: src/Admin/Pages/ControlTab.php:196
+msgid "Site Admin: Activated / Added Site"
+msgstr "Administrador del sitio: Sitio activado/añadido"
+
+#: src/Admin/Pages/ControlTab.php:193
+msgid "User activated their new site, or site was added from Network Admin -> Sites -> Add New. Sent to Network Admin."
+msgstr "El usuario activó su nuevo sitio, o el sitio se añadió desde Administrador de la red -> Sitios -> Añadir nuevo. Enviado al administrador de la red."
+
+#: src/Admin/Pages/ControlTab.php:192
+msgid "Network Admin: User Activated / Added Site"
+msgstr "Administrador de la red: Sitio activado/añadido"
+
+#: src/Admin/Pages/ControlTab.php:189
+msgid "User registered for a new site. Sent to the site admin."
+msgstr "El usuario se registró en un nuevo sitio . Enviado al administrador del sitio."
+
+#: src/Admin/Pages/ControlTab.php:188
+msgid "User Created Site"
+msgstr "El usuario creó un sitio"
+
 #: src/Admin/Pages/ControlTab.php:185
 msgid "New Site"
 msgstr "Nuevo sitio"
+
+#: src/Admin/Pages/ControlTab.php:180
+msgid "A user has been added, or their account activation has been successful. Sent to the user, that has been added/activated."
+msgstr "Se ha añadido un usuario, o su activación de cuenta fue correcta. Enviado al usuario que ha sido añadido/activado."
+
+#: src/Admin/Pages/ControlTab.php:179
+msgid "Added / Activated on Site"
+msgstr "Añadido/activado en el sitio"
+
+#: src/Admin/Pages/ControlTab.php:176
+msgid "A new user account was created. Sent to Network Admin."
+msgstr "Se creó una nueva cuenta de usuario. Enviado al administrador de la red."
+
+#: src/Admin/Pages/ControlTab.php:175
+msgid "Created On Site"
+msgstr "Creado en el sitio"
+
+#: src/Admin/Pages/ControlTab.php:172
+msgid "A new user was invited to a site from Users -> Add New -> Add New User. Sent to the invited user."
+msgstr "Se invitó a un nuevo usuario a un sitio desde Usuarios -> Añadir nuevo -> Añadir nuevo usuario. Enviado al usuario invitado."
+
+#: src/Admin/Pages/ControlTab.php:171
+msgid "Invited To Site"
+msgstr "Invitado al sitio"
+
+#: src/Admin/Pages/ControlTab.php:168
+msgid "A new user was created. Sent to the new user."
+msgstr "Se creó un nuevo usuario. Enviado al nuevo usuario."
+
+#: src/Admin/Pages/ControlTab.php:167
+msgid "Created (User)"
+msgstr "Creado (usuario)"
+
+#: src/Admin/Pages/ControlTab.php:164
+msgid "A new user was created. Sent to the site admin."
+msgstr "Se creó un nuevo usuario. Enviado al administrador del sitio."
+
+#: src/Admin/Pages/ControlTab.php:163
+msgid "Created (Admin)"
+msgstr "Creado (admin)"
 
 #: src/Admin/Pages/ControlTab.php:160
 msgid "New User"
 msgstr "Nuevo usuario"
 
+#: src/Admin/Pages/ControlTab.php:155
+msgid "Full log of background update results which includes information about WordPress core, plugins, themes, and translations updates. Only sent when you are using a development version of WordPress. Sent to the site or network admin."
+msgstr "Registro completo de los resultados de las actualizaciones en segundo plano que incluye información sobre las actualizaciones del núcleo de WordPress, los plugins, los temas y las traducciones. Sólo se envía cuando se utiliza una versión de desarrollo de WordPress. Se envía al administrador del sitio o de la red."
+
 #: src/Admin/Pages/ControlTab.php:154
 msgid "Full Log"
 msgstr "Registro completo"
+
+#: src/Admin/Pages/ControlTab.php:151
+msgid "Completion or failure of a background automatic core update. Sent to the site or network admin."
+msgstr "Finalización o fallo de una actualización automática del núcleo en segundo plano. Enviado al administrador del sitio o de la red."
 
 #: src/Admin/Pages/ControlTab.php:150
 msgid "WP Core Status"
 msgstr "Estado del núcleo de WP"
 
+#: src/Admin/Pages/ControlTab.php:147
+msgid "Completion or failure of a background automatic theme update. Sent to the site or network admin."
+msgstr "Finalización o fallo de una actualización automática de un tema en segundo plano. Enviado al administrador del sitio o de la red."
+
 #: src/Admin/Pages/ControlTab.php:146
 msgid "Theme Status"
 msgstr "Estado del tema"
+
+#: src/Admin/Pages/ControlTab.php:143
+msgid "Completion or failure of a background automatic plugin update. Sent to the site or network admin."
+msgstr "Finalización o fallo de una actualización automática de un plugin en segundo plano. Enviado al administrador del sitio o de la red."
 
 #: src/Admin/Pages/ControlTab.php:142
 msgid "Plugin Status"
@@ -51,17 +238,129 @@ msgstr "Estado del plugin"
 msgid "Automatic Updates"
 msgstr "Actualizaciones automáticas"
 
+#: src/Admin/Pages/ControlTab.php:134
+msgid "Disabling this option will block users from being able to export their personal data, as they will not receive an email with a link."
+msgstr "Al desactivar esta opción se impedirá que los usuarios puedan exportar sus datos personales, ya que no recibirán un correo electrónico con un enlace."
+
+#: src/Admin/Pages/ControlTab.php:133
+msgid "Site admin clicked \"Email Data\" button next to a confirmed data export request. Sent to the requester email address."
+msgstr "El administrador del sitio ha hecho clic en el botón «Enviar datos por correo electrónico» junto a una solicitud de exportación de datos confirmada. Se envía a la dirección de correo electrónico del solicitante."
+
+#: src/Admin/Pages/ControlTab.php:132
+msgid "Admin Sent Link to Export Data"
+msgstr "El administrador envió el enlace para la exportación de datos"
+
+#: src/Admin/Pages/ControlTab.php:129
+msgid "Site admin clicked \"Erase Personal Data\" button next to a confirmed data erasure request. Sent to the requester email address."
+msgstr "El administrador del sitio ha hecho clic en el botón «Borrar datos personales» junto a una solicitud de borrado de datos confirmada. Enviado a la dirección de correo electrónico del solicitante."
+
+#: src/Admin/Pages/ControlTab.php:128
+msgid "Admin Erased Data"
+msgstr "Datos borrados por el administrador"
+
+#: src/Admin/Pages/ControlTab.php:125
+msgid "User clicked a confirmation link in personal data export or erasure request email. Sent to the site or network admin."
+msgstr "El usuario hizo clic en un enlace de confirmación en el correo electrónico de solicitud de exportación o borrado de datos personales. Enviado al administrador del sitio o de la red."
+
+#: src/Admin/Pages/ControlTab.php:124
+msgid "User Confirmed Export / Erasure Request"
+msgstr "El usuario confirmó la solicitud de exportación/borrado"
+
+#: src/Admin/Pages/ControlTab.php:121
+msgid "Personal Data Requests"
+msgstr "Solicitudes de datos personales"
+
+#: src/Admin/Pages/ControlTab.php:116
+msgid "User changed their email address. Sent to the user."
+msgstr "El usuario cambió su dirección de correo electrónico. Enviado al usuario."
+
 #: src/Admin/Pages/ControlTab.php:115
 msgid "Email Changed"
 msgstr "Correo electrónico cambiado"
+
+#: src/Admin/Pages/ControlTab.php:112
+msgid "User attempted to change their email address. Sent to the proposed new email address."
+msgstr "El usuario trato de cambiar su dirección de correo electrónico. Enviado a la nueva dirección de correo electrónico propuesta."
+
+#: src/Admin/Pages/ControlTab.php:111
+msgid "Email Change Attempt"
+msgstr "Intento de cambio de correo electrónico"
+
+#: src/Admin/Pages/ControlTab.php:108
+msgid "User changed their password. Sent to the user."
+msgstr "El usuario cambió su contraseña. Enviado al usuario."
 
 #: src/Admin/Pages/ControlTab.php:107
 msgid "Password Changed"
 msgstr "Contraseña cambiada"
 
+#: src/Admin/Pages/ControlTab.php:104
+msgid "User reset their password from the password reset link. Sent to the site admin."
+msgstr "El usuario restableció su contraseña desde el enlace de restablecer contraseña. Enviado al administrador del sitio."
+
+#: src/Admin/Pages/ControlTab.php:103
+msgid "Password Reset Successfully"
+msgstr "Contraseña restablecida correctamente"
+
+#: src/Admin/Pages/ControlTab.php:100
+msgid "User requested a password reset via \"Lost your password?\". Sent to the user."
+msgstr "El usuario solicitó restablecer una contraseña desde el enlace de «¿Olvidaste tu contraseña?». Enviado al usuario."
+
+#: src/Admin/Pages/ControlTab.php:99
+msgid "Reset Password Request"
+msgstr "Solicitud de restablecer contraseña"
+
+#: src/Admin/Pages/ControlTab.php:96
+msgid "Change of User Email or Password"
+msgstr "Cambio de correo electrónico o contraseña del usuario"
+
+#: src/Admin/Pages/ControlTab.php:91
+msgid "Network admin email address was changed. Sent to the old network admin email address."
+msgstr "La dirección de correo electrónico del administrador de la red ha cambiado. Enviado a la antigua dirección de correo electrónico del administrador de la red."
+
+#: src/Admin/Pages/ControlTab.php:90
+msgid "Network Admin Email Changed"
+msgstr "La dirección de correo electrónico del administrador de la red ha cambiado"
+
+#: src/Admin/Pages/ControlTab.php:87
+msgid "Change of network admin email address was attempted. Sent to the proposed new email address."
+msgstr "Se ha intentado cambiar la dirección de correo electrónico del administrador de la red. Enviado a la nueva dirección de correo electrónico propuesta."
+
+#: src/Admin/Pages/ControlTab.php:86
+msgid "Network Admin Email Change Attempt"
+msgstr "Intento de cambio de correo electrónico del administrador de la red"
+
+#: src/Admin/Pages/ControlTab.php:83
+msgid "Site admin email address was changed. Sent to the old site admin email address."
+msgstr "La dirección de correo electrónico del administrador del sitio ha cambiado. Enviado a la antigua dirección de correo electrónico del administrador del sitio."
+
+#: src/Admin/Pages/ControlTab.php:82
+msgid "Site Admin Email Changed"
+msgstr "El correo electrónico del administrador del sitio ha cambiado"
+
+#: src/Admin/Pages/ControlTab.php:79
+msgid "Change of site admin email address was attempted. Sent to the proposed new email address."
+msgstr "Se ha intentado cambiar la dirección de correo electrónico del administrador del sitio. Enviado a la nueva dirección de correo electrónico propuesta."
+
+#: src/Admin/Pages/ControlTab.php:78
+msgid "Site Admin Email Change Attempt"
+msgstr "Intento de cambio de correo electrónico del administrador del sitio"
+
+#: src/Admin/Pages/ControlTab.php:75
+msgid "Change of Admin Email"
+msgstr "Cambio del correo electrónico del administrador"
+
+#: src/Admin/Pages/ControlTab.php:70
+msgid "Comment has been published. Sent to the post author."
+msgstr "El comentario ha sido publicado. Enviado al autor de la entrada."
+
 #: src/Admin/Pages/ControlTab.php:69
 msgid "Published"
 msgstr "Publicado"
+
+#: src/Admin/Pages/ControlTab.php:66
+msgid "Comment is awaiting moderation. Sent to the site admin and post author if they can edit comments."
+msgstr "El comentario está a la espera de ser moderado. Enviado al administrador del sitio y al autor de la entrada si pueden editar comentarios."
 
 #: src/Admin/Pages/ControlTab.php:65
 msgid "Awaiting Moderation"
@@ -70,6 +369,41 @@ msgstr "En espera de moderación"
 #: src/Admin/Pages/ControlTab.php:62
 msgid "Comments"
 msgstr "Comentarios"
+
+#: assets/languages/wp-mail-smtp-vue.php:799
+msgid "Outlook / 365 requires an SSL certificate, and so is not currently compatible with your site. Please contact your host to request a SSL certificate, or check out "
+msgstr "Outlook / 365 requiere un certificado SSL, por lo que actualmente no es compatible con tu sitio. Ponte en contacto con tu alojamiento para solicitar un certificado SSL, o echa un vistazo a "
+
+#: assets/languages/wp-mail-smtp-vue.php:796
+msgid "If you'd prefer not to set up SSL, or need an SMTP solution in the meantime, please go back and select a different mailer option."
+msgstr "Si prefieres no configurar SSL, o necesitas una solución SMTP mientras tanto, vuelve a seleccionar una opción de servidor de correo diferente."
+
+#: assets/languages/wp-mail-smtp-vue.php:793
+msgid "WPBeginner's tutorial on how to set up SSL"
+msgstr "Tutorial de WPBeginner sobre cómo configurar el SSL"
+
+#: assets/languages/wp-mail-smtp-vue.php:790
+msgid "Amazon SES requires an SSL certificate, and so is not currently compatible with your site. Please contact your host to request a SSL certificate, or check out "
+msgstr "Amazon SES requiere un certificado SSL, por lo que actualmente no es compatible con tu sitio. Ponte en contacto con tu alojamiento para solicitar un certificado SSL, o echa un vistazo a "
+
+#: assets/languages/wp-mail-smtp-vue.php:585
+msgid "Read how to set up Postmark"
+msgstr "Aprende cómo configurar Postmark"
+
+#. Translators: Link to the Postmark Message Stream ID settings.
+#: assets/languages/wp-mail-smtp-vue.php:582
+msgid "Message Stream ID is <strong>optional</strong>. By default <strong>outbound</strong> (Default Transactional Stream) will be used. More information can be found in our %1$sPostmark documentation%2$s."
+msgstr "El ID del flujo de mensajes es <strong>opcional</strong>. Por defecto se utilizará <strong>salida</strong> (flujo transaccional por defecto). Puedes encontrar más información en nuestra documentación %1$sPostmark%2$s."
+
+#. Translators: Link to the Postmark API settings.
+#: assets/languages/wp-mail-smtp-vue.php:578
+msgid "%1$sFollow this link%2$s to get a Server API Token for Postmark."
+msgstr "%1$sSigue este enlace%2$s para obtener un token de la API del servidor de Postmark."
+
+#: assets/languages/wp-mail-smtp-vue.php:574
+#: src/Providers/Postmark/Options.php:114
+msgid "Message Stream ID"
+msgstr "ID del flujo de mensajes"
 
 #: assets/languages/wp-mail-smtp-vue.php:571
 #: src/Providers/Postmark/Options.php:85
