@@ -24,8 +24,8 @@
 #    and best practices on handling the access key credentials.
 
 on:
-  # push:
-  #   branches: [main]
+  push:
+    branches: [main]
   workflow_dispatch: 
   
 name: Deploy to Amazon ECS
@@ -48,56 +48,56 @@ jobs:
         git pull --recurse-submodules
         git submodule update --remote --recursive
 
-#     - name: Configure AWS credentials
-#       uses: aws-actions/configure-aws-credentials@v1
-#       with:
-#         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-#         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-#         aws-region: us-east-1
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
 
-#     - name: Login to Amazon ECR
-#       id: login-ecr
-#       uses: aws-actions/amazon-ecr-login@v1
+    - name: Login to Amazon ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v1
 
-#     - name: Build, tag, and push image to Amazon ECR
-#       id: build-image
-#       env:
-#         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-#         ECR_REPOSITORY: ${{ secrets.ECS_TASK }}
-#         IMAGE_TAG: latest
-#       run: |
-#         # Build a docker container and
-#         # push it to ECR so that it can
-#         # be deployed to ECS.
-#         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG \
-#           --build-arg WP_DB_HOST='${{ secrets.WP_DB_HOST }}' \
-#           --build-arg WP_DB_NAME='${{ secrets.WP_DB_NAME }}' \
-#           --build-arg WP_DB_PASSWORD='${{ secrets.WP_DB_PASSWORD }}' \
-#           --build-arg WP_DB_USER='${{ secrets.WP_DB_USER }}' \
-#           --build-arg WP_S3_ACCESS_KEY='${{ secrets.AWS_ACCESS_KEY_ID }}' \
-#           --build-arg WP_S3_SECRET_KEY='${{ secrets.AWS_SECRET_ACCESS_KEY }}' \
-#           --build-arg WP_S3_BUCKET='${{ secrets.WP_S3_BUCKET }}' \
-#           --build-arg NEWRELIC_KEY='${{ secrets.NEWRELIC_KEY }}' \
-#           --build-arg NEWRELIC_APP_NAME='${{ secrets.NEWRELIC_APP_NAME }}' .
-#         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-#         echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
-#         echo "Init transform: task-definition.json"
-#         sed -i 's/ECSTASK/${{ secrets.ECS_TASK }}/' task-definition.json
-#         sed -i 's/AWSACCID/${{ secrets.AWS_ACCOUNT_ID }}/' task-definition.json
-#         echo "End transform: task-definition.json"
+    - name: Build, tag, and push image to Amazon ECR
+      id: build-image
+      env:
+        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+        ECR_REPOSITORY: ${{ secrets.ECS_TASK }}
+        IMAGE_TAG: latest
+      run: |
+        # Build a docker container and
+        # push it to ECR so that it can
+        # be deployed to ECS.
+        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG \
+          --build-arg WP_DB_HOST='${{ secrets.WP_DB_HOST }}' \
+          --build-arg WP_DB_NAME='${{ secrets.WP_DB_NAME }}' \
+          --build-arg WP_DB_PASSWORD='${{ secrets.WP_DB_PASSWORD }}' \
+          --build-arg WP_DB_USER='${{ secrets.WP_DB_USER }}' \
+          --build-arg WP_S3_ACCESS_KEY='${{ secrets.AWS_ACCESS_KEY_ID }}' \
+          --build-arg WP_S3_SECRET_KEY='${{ secrets.AWS_SECRET_ACCESS_KEY }}' \
+          --build-arg WP_S3_BUCKET='${{ secrets.WP_S3_BUCKET }}' \
+          --build-arg NEWRELIC_KEY='${{ secrets.NEWRELIC_KEY }}' \
+          --build-arg NEWRELIC_APP_NAME='${{ secrets.NEWRELIC_APP_NAME }}' .
+        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+        echo "Init transform: task-definition.json"
+        sed -i 's/ECSTASK/${{ secrets.ECS_TASK }}/' task-definition.json
+        sed -i 's/AWSACCID/${{ secrets.AWS_ACCOUNT_ID }}/' task-definition.json
+        echo "End transform: task-definition.json"
 
-    # - name: Fill in the new image ID in the Amazon ECS task definition
-    #   id: task-def
-    #   uses: aws-actions/amazon-ecs-render-task-definition@v1
-    #   with:
-    #     task-definition: task-definition.json
-    #     container-name: ${{ secrets.ECS_TASK }}
-    #     image: ${{ steps.build-image.outputs.image }}
+    - name: Fill in the new image ID in the Amazon ECS task definition
+      id: task-def
+      uses: aws-actions/amazon-ecs-render-task-definition@v1
+      with:
+        task-definition: task-definition.json
+        container-name: ${{ secrets.ECS_TASK }}
+        image: ${{ steps.build-image.outputs.image }}
 
-    # - name: Deploy Amazon ECS task definition
-    #   uses: aws-actions/amazon-ecs-deploy-task-definition@v1
-    #   with:
-    #     task-definition: ${{ steps.task-def.outputs.task-definition }}
-    #     service: ${{ secrets.ECS_TASK }}
-    #     cluster: IASD
-    #     wait-for-service-stability: true
+    - name: Deploy Amazon ECS task definition
+      uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+      with:
+        task-definition: ${{ steps.task-def.outputs.task-definition }}
+        service: ${{ secrets.ECS_TASK }}
+        cluster: IASD
+        wait-for-service-stability: true
