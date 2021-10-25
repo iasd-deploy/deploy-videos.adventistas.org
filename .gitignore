@@ -1,4 +1,3 @@
-update*
 *.sql
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
