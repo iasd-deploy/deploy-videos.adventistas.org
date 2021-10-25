@@ -26,7 +26,6 @@ jobs:
       with:
         token: ${{ github.token }}
         submodules: 'recursive'
-        ref: deploy
         # ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     # Update references
