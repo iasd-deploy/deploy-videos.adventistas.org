@@ -1,0 +1,20 @@
+{
+  "name": "pa-plugin-utilities",
+  "description": "Plugin dist",
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/igrejaadventista/styleguide/blob/master/LICENSE"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-contrib-compress": "~0.7.0",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.2.10"
+  },
+  "engines": {
+    "node": "~0.10.1"
+  }
+}

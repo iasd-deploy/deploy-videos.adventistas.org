@@ -1,9 +1,3 @@
-[submodule "app/pt/wp-content/plugins/pa-plugin-utilities"]
-	path = app/pt/wp-content/plugins/pa-plugin-utilities
-	url = git@bitbucket.org:internetdsa/pa-plugin-utilities.git
-[submodule "app/es/wp-content/plugins/pa-plugin-utilities"]
-	path = app/es/wp-content/plugins/pa-plugin-utilities
-	url = git@bitbucket.org:internetdsa/pa-plugin-utilities.git
 [submodule "app/pt/wp-content/themes/pa-theme-sedes"]
 	path = app/pt/wp-content/themes/pa-theme-sedes
 	url = git@github.com:igrejaadventista/PA-Theme-Sedes.git

@@ -1,0 +1,30 @@
+<phpunit bootstrap="phpunit_bootstrap.php" 
+	backupGlobals="false" 
+	colors="true"
+	verbose="true"
+	printerFilez="tests/IASD_ResultPrinter.class.php"
+	printerClassz="IASD_ResultPrinter"
+	>
+	<php>
+		<const name="WP_TESTS_MULTISITE" value="1" />
+	</php>
+	<testsuites>
+		<testsuite>
+			<directory suffix=".php">tests</directory>
+			<directory suffix=".php">tests/Query</directory>
+			<directory suffix=".php">tests/ListaDePosts</directory>
+		</testsuite>
+	</testsuites>
+	<!--logging>
+		<log type="coverage-html" target="_codecoverage" charset="UTF-8"
+				 highlight="true" lowUpperBound="70" highLowerBound="90"/>
+		<log type="coverage-clover" target="_codecoverage.xml"/>
+		<log type="coverage-php" target="_codecoverage.serialized"/>
+		<log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+		<log type="json" target="_codecoverage.json"/>
+		<log type="tap" target="_codecoverage.tap"/>
+		<log type="junit" target="_codecoverage-junit.xml" logIncompleteSkipped="false"/>
+		<log type="testdox-html" target="_codecoverage-dox.html"/>
+		<log type="testdox-text" target="_codecoverage.txt"/>
+	</logging-->
+ </phpunit>

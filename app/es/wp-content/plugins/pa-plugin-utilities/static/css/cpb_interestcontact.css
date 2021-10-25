@@ -1,0 +1,90 @@
+.iasd-widget-interest_contact{
+	overflow: hidden;
+}
+.col-md-4 div.txt-matric, .col-md-4 .btn-matric, .col-md-4 .sct-matric, .col-md-4 .result-matric{
+	width:100%;
+	margin-left:0 !important;
+}
+.interest-contact{
+	margin:35px 0 0 0;
+}
+.btn-matric, .sct-matric{
+	width:30%;
+	float:left;
+}
+.sct-matric{
+	width:47.5%;
+}
+#sct-cidade, #sct-serie, .btn-matric{
+	margin-left:5%;
+}
+.custom-sct{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #fff;
+	border: 1px solid #e0d8cd;
+	height: 28px;
+	overflow: hidden;
+	position: relative;
+}
+.custom-sct select{
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	background: transparent;
+	border: none;
+	font-weight: 300;
+	padding: 5px 20px 5px 10px;
+	position: absolute;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+}
+.custom-sct select:hover, .custom-sct select:focus{
+	background: transparent;
+	border: none;
+	outline: none;
+}
+span.sct-seta{
+	font-size: 9px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+.sct-seta:before{
+	border-left: 1px solid #e0d8cd;
+	content: '\f0dc';
+	color: #ccbfae;
+	display: block;
+	font-family: FontAwesome;
+	line-height: 26px;
+	width: 20px;
+}
+.inp-matric, form#frm-matric div:not(.result-matric){
+	margin-bottom:20px;
+}
+.txt-matric{
+	width:65%;
+	float:left;
+}
+.result-matric{
+	width: 30%;
+	margin: 1.5% 0 0 5%;
+	float: left;
+	border-radius: 2px;
+	padding: 0.2em 1em;
+}
+input.error{
+	border-color:#ffcc00;
+}
+label.error{
+	display: none !important;
+}
+@media screen and (max-device-width: 600px){
+	div.txt-matric, .btn-matric, .sct-matric, .result-matric{
+		width: 100%;
+		margin-left: 0 !important;
+	}
+}

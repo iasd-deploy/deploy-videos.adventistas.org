@@ -1,0 +1,14 @@
+{
+    "name": "internetdsa/pa-plugin-utilities",
+    "version": "master",
+    "type": "wordpress-plugin",
+    "dist": {
+        "url": "git@bitbucket.org:internetdsa/pa-plugin-utilities.git",
+        "type": "git"
+    },
+    "source": {
+        "url": "git@bitbucket.org:internetdsa/pa-plugin-utilities.git",
+        "type": "git",
+        "reference": "develop"
+    }
+}

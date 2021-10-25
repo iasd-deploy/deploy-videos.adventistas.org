@@ -1,0 +1,2264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pa-plugin-json-miscellaneous\n"
+"POT-Creation-Date: 2020-09-21 14:01-0300\n"
+"PO-Revision-Date: 2020-09-21 14:01-0300\n"
+"Last-Translator: Eli Mendonça <contato@elimendonca.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/controllers/IASD_Footer.class.php:59
+msgid "Copyright © 2013-2017"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:60
+msgid "Igreja Adventista do Sétimo Dia"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:61
+msgid "Todos os direitos reservados"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:63
+msgid "Voltar ao topo"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:72
+msgid "Divisão Sul-Americana"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:81
+#: classes/controllers/IASD_Footer.class.php:101
+msgid "Acesse a fanpage no Facebook"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:82
+#: classes/controllers/IASD_Footer.class.php:102
+msgid "Acesse o perfil no Twitter"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:83
+#: classes/controllers/IASD_Footer.class.php:103
+msgid "Acesse o perfil no Google+"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:84
+#: classes/controllers/IASD_Footer.class.php:104
+msgid "Acesse o canal no Youtube"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:85
+#: classes/controllers/IASD_Footer.class.php:105
+msgid "Assine o RSS"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:130
+msgid "Configurações do Rodapé"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:131
+#: classes/controllers/IASD_Header.class.php:114
+#: views/iasd_listadeposts/form_title.php:7
+msgid "Titulo"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:132
+#: classes/widgets/IASD_FacebookWidget.class.php:52
+msgid "Facebook"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:133
+#: classes/widgets/IASD_TwitterWidget.class.php:60
+msgid "Twitter"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:134
+msgid "Google+"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:135
+msgid "Youtube"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:136
+msgid "Feed RSS"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:137
+msgid "Endereço"
+msgstr ""
+
+#: classes/controllers/IASD_Footer.class.php:140
+msgid "Use os campos abaixo para configurar o rodapé global"
+msgstr ""
+
+#: classes/controllers/IASD_GlobalNav.class.php:11
+msgid "Navegação"
+msgstr ""
+
+#: classes/controllers/IASD_GlobalNav.class.php:16
+msgid "Clique aqui para visitar o Portal Adventista"
+msgstr ""
+
+#: classes/controllers/IASD_GlobalNav.class.php:23
+msgid "Busca"
+msgstr ""
+
+#: classes/controllers/IASD_GlobalNav.class.php:30
+#: classes/controllers/IASD_Menu.class.php:20
+msgid "Mais..."
+msgstr ""
+
+#: classes/controllers/IASD_GlobalNav.class.php:80
+msgid "Insira as palavras-chave aqui"
+msgstr ""
+
+#: classes/controllers/IASD_GlobalNav.class.php:82
+#: classes/widgets/IASD_ListaDePosts.class.php:646
+msgid "Buscar"
+msgstr ""
+
+#: classes/controllers/IASD_Header.class.php:78
+msgid "Clique aqui para retornar à página inicial"
+msgstr ""
+
+#: classes/controllers/IASD_Header.class.php:102
+msgid "Cabeçalho"
+msgstr ""
+
+#: classes/controllers/IASD_Header.class.php:113
+msgid "Configurações do Cabeçalho"
+msgstr ""
+
+#: classes/controllers/IASD_Header.class.php:115
+msgid "Descrição"
+msgstr ""
+
+#: classes/controllers/IASD_Header.class.php:116
+#: classes/helpers/IASD_Taxonomias.class.php:1344
+#: classes/helpers/IASD_Taxonomias.class.php:1345
+msgid "Sede"
+msgstr ""
+
+#: classes/controllers/IASD_Header.class.php:121
+msgid "Use os campos abaixo para configurar o cabeçalho global"
+msgstr ""
+
+#: classes/controllers/IASD_Header.class.php:135
+msgid "Não é sede regional"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:26
+msgid "Galeria de Imagens"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:27
+#: classes/controllers/IASD_VideoGallery.class.php:22
+#: classes/helpers/IASD_Taxonomias.class.php:212
+msgid "Single"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:28
+#: classes/controllers/IASD_VideoGallery.class.php:23
+#: classes/helpers/IASD_Taxonomias.class.php:216
+msgid "Archive"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:31
+msgid ""
+"Use os campos abaixo para configurar os permalinks relacionados à galeria de "
+"imagens"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:66
+msgid "Categorias de Galerias"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:74
+msgid "Galerias"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:75
+msgid "galeria"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:76
+msgid "Adicionar nova"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:77
+msgid "Adicionar nova galeria"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:78
+msgid "Editar galeria"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:79
+msgid "Novo galeria"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:80
+msgid "Visualizar galeria"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:81
+msgid "Buscar galeria"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:198
+msgid "Galeria de Imagens Mundo (ANN)"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:206
+msgid "Post de Galeria Encontrado: "
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:210
+msgid "Imagem ANN Encontrada"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:244
+msgid "<p>Criou o post Attachment</p>"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:247
+msgid "<p>Atualizou Thumbnail</p>"
+msgstr ""
+
+#: classes/controllers/IASD_ImageGallery.class.php:259
+msgid "<p>Item já cadastrado!</p>"
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:24
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:25
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:37
+msgid "Fontes de Conteúdo"
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:38
+msgid "Relatório de conectividade das fontes de conteúdo"
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:106
+msgid ""
+"Algumas configurações atuais podem ser perdidas. Deseja continuar? Se "
+"confirmar lembre de verificar a compatibilidade da fonte de conteúdo."
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:107
+msgid "Algumas configurações atuais podem ser perdidas. Continuar?"
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:108
+msgid "Por favor, preencha os campos obrigatórios!"
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:109
+msgid "Endereço para a fonte de conteúdos é inválido."
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:110
+msgid "O endereço não corresponde a um site compatível."
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:111
+#: views/iasd_listadeposts/form_appearance_grouping_taxonomy.php:43
+msgid "Não permitir"
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:112
+#: views/iasd_listadeposts/form_appearance_view.php:20
+#: views/iasd_listadeposts/form_appearance_width.php:12
+#: views/iasd_listadeposts/form_content_post_type.php:12
+msgid "Selecione..."
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:114
+#: views/iasd_listadeposts/form_appearance_grouping_taxonomy.php:68
+msgid "Forçar Escolha"
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:115
+#: views/iasd_listadeposts/form_appearance_grouping_taxonomy.php:69
+msgid "Mais Recentes"
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:116
+#: views/iasd_listadeposts/form_appearance_grouping_taxonomy.php:73
+msgid "Marcadores"
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:152
+msgid "1/3 da Coluna "
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:153
+msgid "2/3 da Coluna "
+msgstr ""
+
+#: classes/controllers/IASD_ListaDePosts_Ajax.class.php:154
+#: classes/widgets/IASD_AdaptableWidget.class.php:51
+#: classes/widgets/IASD_ListaDePosts.class.php:1315
+msgid "Coluna Inteira"
+msgstr ""
+
+#: classes/controllers/IASD_Menu.class.php:23
+#: classes/controllers/IASD_Menu.class.php:51
+msgid "Clique para ver mais itens"
+msgstr ""
+
+#: classes/controllers/IASD_Menu.class.php:48
+msgid "Clique para ver os sites:"
+msgstr ""
+
+#: classes/controllers/IASD_Menu.class.php:69
+msgid "Quarto rodapé, da esquerda para a direita, nas instalações da IASD)"
+msgstr ""
+
+#: classes/controllers/IASD_Privacidade.php:87
+msgid ""
+"Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua "
+"experiência em nossos serviços, personalizar publicidade e recomendar "
+"conteúdo de seu interesse. Ao utilizar nossos serviços, você concorda com "
+"tal monitoramento. Conheça nossa página de"
+msgstr ""
+
+#: classes/controllers/IASD_Privacidade.php:87
+msgid "Política de Privacidade"
+msgstr ""
+
+#: classes/controllers/IASD_Privacidade.php:88
+msgid "Aceitar"
+msgstr ""
+
+#: classes/controllers/IASD_Referer.class.php:88
+#: classes/controllers/IASD_Referer.class.php:90
+msgid "Clique para visualizar o link da página anterior"
+msgstr ""
+
+#: classes/controllers/IASD_Referer.class.php:89
+msgid "Clique para fechar este link"
+msgstr ""
+
+#: classes/controllers/IASD_Referer.class.php:91
+msgid "Esconder"
+msgstr ""
+
+#: classes/controllers/IASD_Referer.class.php:92
+msgid "Clique para voltar para"
+msgstr ""
+
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:7
+msgid "Revistas"
+msgstr ""
+
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:8
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:66
+#: views/revista_adventista/widget-revista-adventista.php:2
+msgid "Revista"
+msgstr ""
+
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:9
+msgid "Adicionar artigo/revista"
+msgstr ""
+
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:10
+msgid "Adicionar novo artigo/revista"
+msgstr ""
+
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:11
+msgid "Editar artigo/revista"
+msgstr ""
+
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:12
+msgid "Novo artigo/revista"
+msgstr ""
+
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:13
+msgid "Visualizar artigo/revista"
+msgstr ""
+
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:14
+msgid "Buscar artigo/revista"
+msgstr ""
+
+#: classes/controllers/IASD_RevistaAdventistaController.class.php:69
+msgid "Sidebar de colunagem 1/3"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:21
+msgid "Galerias de Videos"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:26
+msgid ""
+"Use os campos abaixo para configurar os permalinks relacionados à galeria de "
+"videos"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:57
+msgid "Categorias de Videos"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:65
+msgid "Videos"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:66
+msgid "video"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:67
+msgid "Adicionar novo"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:68
+msgid "Adicionar novo video"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:69
+msgid "Editar video"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:70
+msgid "Novo video"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:71
+msgid "Visualizar video"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:72
+msgid "Buscar videos"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:174
+msgid ""
+"O endereço usado não é válido. Preencha o campo de acordo com as instruções."
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:178
+msgid "O campo de video não foi encontrado"
+msgstr ""
+
+#: classes/controllers/IASD_VideoGallery.class.php:199
+msgid ""
+"Por favor, preencha o campo acima com o endereço do video. Para isso, acesse "
+"o video, no YouTube ou Vimeo, clique em SHARE (Compartilhar) e copie a URL "
+"exibida."
+msgstr ""
+
+#: classes/controllers/PAGoogleAnalytics.class.php:19
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: classes/controllers/PAPluginJsonFeedController.class.php:66
+msgid "Last update:"
+msgstr ""
+
+#: classes/controllers/PAPluginJsonFeedController.class.php:66
+msgid "Nunca sincronizou"
+msgstr ""
+
+#: classes/controllers/PAPluginJsonFeedController.class.php:73
+#: classes/widgets/IASD_MonthlyArchives.class.php:72
+#: classes/widgets/IASD_SliderServicos.class.php:24
+#: classes/widgets/IASD_Text.class.php:55
+msgid "Title:"
+msgstr ""
+
+#: classes/controllers/PAPluginJsonFeedController.class.php:84
+msgid "Quantidade:"
+msgstr ""
+
+#: classes/controllers/PAPluginJsonFeedController.class.php:95
+msgid "Servidor:"
+msgstr ""
+
+#: classes/controllers/PAPluginJsonFeedController.class.php:106
+msgid "Link do Veja Mais:"
+msgstr ""
+
+#: classes/controllers/PAPluginJsonFeedController.class.php:117
+msgid "Apenas com thumbnail:"
+msgstr ""
+
+#: classes/controllers/PAPluginJsonFeedController.class.php:170
+msgid "Usar termo atual"
+msgstr ""
+
+#: classes/controllers/PAPluginJsonFeedController.class.php:312
+msgid " - Sem Resultados"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultImage.class.php:185
+#: classes/helpers/IASD_DefaultImage.class.php:233
+msgid "Imagem não disponível"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:44
+msgid "Novo Tempo"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:53
+msgid "Fontes de conteúdo padrão"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:61
+msgid "Opções salvas com sucesso."
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:74
+msgid "Rádio Novo Tempo"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:87
+#: classes/helpers/IASD_DefaultMidia.class.php:138
+msgid "Brasil (Principal)"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:94
+#: classes/helpers/IASD_DefaultMidia.class.php:145
+msgid "Espanhol (Principal)"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:101
+msgid "Bolivia"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:108
+msgid "Equador"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:115
+msgid "Uruguai"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:125
+msgid "TV Novo Tempo"
+msgstr ""
+
+#: classes/helpers/IASD_DefaultMidia.class.php:152
+msgid "Chile"
+msgstr ""
+
+#: classes/helpers/IASD_Languages.class.php:13
+msgid "Outras Línguas"
+msgstr ""
+
+#: classes/helpers/IASD_Languages.class.php:19
+msgid "URLS"
+msgstr ""
+
+#: classes/helpers/IASD_Languages.class.php:27
+msgid ""
+"Para cada língua informe a URL da instalação correlata a esta instalação"
+msgstr ""
+
+#: classes/helpers/IASD_Languages.class.php:55
+msgid "Você precisa inserir uma URL válida para a lingua "
+msgstr ""
+
+#: classes/helpers/IASD_Languages.class.php:60
+msgid "Você precisa definir um título para o link da lingua "
+msgstr ""
+
+#: classes/helpers/IASD_Languages.class.php:71
+msgid "Instalações em outras línguas"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:93
+msgid "COL-MD-4"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:100
+msgid "COL-MD-8"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:105
+msgid "COL-MD-12"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:112
+msgid "COL-MD-4-ONLY"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:117
+msgid "COL-MD-8-ONLY"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:122
+msgid "COL-MD-12-ONLY"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:132
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:139
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:146
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:153
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:159
+msgid "Boxes"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:133
+msgid "Box simples"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:140
+msgid "Box simples com miniaturas"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:147
+msgid "Box ordenado"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:154
+msgid "Box ordenado com miniaturas"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:160
+msgid "Box Eventos"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:169
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:177
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:184
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:191
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:200
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:209
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:217
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:225
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:235
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:242
+msgid "Listas"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:170
+msgid "Lista"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:178
+msgid "Lista com miniaturas"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:185
+msgid "Lista de galerias de imagens"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:192
+msgid "Lista com 1 destaque"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:201
+msgid "Lista com 1 destaque video"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:210
+msgid "Lista com miniaturas e 1 destaque"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:218
+msgid "Lista com miniaturas e 1 destaque video"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:226
+msgid "Lista de Posts Simples com Miniaturas e Marcadores"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:236
+msgid "Lista de Botões"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:243
+msgid "Lista de Galerias"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:252
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:257
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:263
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:273
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:280
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:287
+msgid "Grids"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:253
+msgid "Grid de Posts"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:258
+msgid "Grid de 3 Posts"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:264
+msgid "Grid de 5 Posts"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:274
+msgid "Grid detalhes"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:281
+msgid "Grid detalhes com miniaturas"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:288
+msgid "Grid detalhes com miniaturas e destaque"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:299
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:305
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:317
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:327
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:335
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:340
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:347
+msgid "Sliders"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:300
+msgid "Slider de Serviços"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:306
+msgid "Slider de Destaques Verticais"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:318
+msgid "Slider ASN"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:328
+msgid "Slider de Destaques Horizontais"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:336
+msgid "Slider de Publicações"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:341
+msgid "Slider de Galerias"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:348
+msgid "Slider de Autores"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:359
+msgid "Exceções"
+msgstr ""
+
+#: classes/helpers/IASD_ListaDePosts_Views.class.php:360
+#: classes/widgets/IASD_ListaDePosts.class.php:737
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/helpers/IASD_PostTypeControl.class.php:62
+msgid "Post Type Control"
+msgstr ""
+
+#: classes/helpers/IASD_PostTypeControl.class.php:96
+msgid "Post Types a serem restritos"
+msgstr ""
+
+#: classes/helpers/IASD_Shortcodes.class.php:48
+msgid "Clique para ler a resposta"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:149
+msgid ""
+"Algumas informações estão equivocadas. Verifique as taxonomias e o tamanho "
+"do titulo."
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:159
+msgid "O titulo precisa ter menos de 100 caracteres."
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:170
+#, php-format
+msgid "A taxonomia \"%s\" é obrigatória."
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:178
+#: classes/helpers/IASD_Taxonomias.class.php:179
+msgid "Instituição"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:188
+#: classes/helpers/IASD_Taxonomias.class.php:189
+#: classes/helpers/IASD_Taxonomias.class.php:203
+#: classes/helpers/IASD_Taxonomias.class.php:1049
+#: classes/helpers/IASD_Taxonomias.class.php:1058
+#: classes/helpers/IASD_Taxonomias.class.php:1068
+msgid "Taxonomias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:196
+#: classes/helpers/IASD_Taxonomias.class.php:197
+msgid "Permalinks"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:209
+msgid "Permalinks de Taxonomias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:222
+msgid "Use os campos abaixo para configurar os permalinks das taxonomias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:246
+#: classes/helpers/IASD_Taxonomias.class.php:1094
+#: classes/widgets/IASD_ListaDePosts.class.php:750
+#: classes/widgets/IASD_ListaDePosts.class.php:2259
+msgid "Salvar"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1062
+msgid "Ativação de Taxonomias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1109
+msgid "Configuração e Sincronia"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1113
+msgid "Endereço do Servidor de Taxonomias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1123
+msgid "Atualizar e Sincronizar"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1130
+msgid "Últimos Eventos"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1134
+msgid "Notificações do Servidor"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1135
+msgid "Pedidos de Atualização"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1136
+msgid "Atualização Completa"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1167
+msgid ""
+"ATENÇÃO: Você modificou o endereço do servidor de sincronização de "
+"taxonomias. Revise o endereço digitado e clique em OK se estiver correto. "
+"\\n \\n Endereço digitado: \\n "
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1275
+#: classes/helpers/IASD_Taxonomias.class.php:1285
+msgid "Sedes Regionais"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1276
+msgid "Sede Regional"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1277
+#: classes/helpers/IASD_Taxonomias.class.php:1342
+msgid "Buscar Sede"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1278
+#: classes/helpers/IASD_Taxonomias.class.php:1343
+msgid "Todas Sedes"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1279
+#: classes/helpers/IASD_Taxonomias.class.php:1280
+msgid "Sede Adminitrativa"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1281
+#: classes/helpers/IASD_Taxonomias.class.php:1346
+#: classes/helpers/IASD_Taxonomias.class.php:1534
+msgid "Editar Sede"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1282
+#: classes/helpers/IASD_Taxonomias.class.php:1347
+msgid "Atualizar Sede"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1283
+#: classes/helpers/IASD_Taxonomias.class.php:1348
+msgid "Adicionar Nova Sede"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1284
+msgid "Nome da Sede"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1340
+msgid "Sedes Proprietárias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1341
+#: classes/helpers/IASD_Taxonomias.class.php:1350
+msgid "Sede Proprietária"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1349
+msgid "Nome do Sede"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1360
+msgid "proprietario"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1378
+#: classes/helpers/IASD_Taxonomias.class.php:1388
+msgid "Projetos"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1379
+msgid "Projeto"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1380
+msgid "Buscar Projeto"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1381
+msgid "Todos os Projetos"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1382
+#: classes/helpers/IASD_Taxonomias.class.php:1383
+msgid "Projeto Pai"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1384
+msgid "Editar Projeto"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1385
+msgid "Atualizar Projeto"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1386
+msgid "Adicionar Novo Projeto"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1387
+msgid "Nome do Projeto"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1397
+msgid "projeto"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1416
+#: classes/helpers/IASD_Taxonomias.class.php:1426
+msgid "Departamentos"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1417
+msgid "Departamento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1418
+msgid "Buscar Departamento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1419
+msgid "Todos os Departamento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1420
+#: classes/helpers/IASD_Taxonomias.class.php:1421
+msgid "Departamento Superior"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1422
+msgid "Editar Departamento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1423
+msgid "Atualizar Departamento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1424
+msgid "Adicionar Novo Departamento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1425
+msgid "Nome do Departamento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1435
+msgid "departamento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1454
+#: classes/helpers/IASD_Taxonomias.class.php:1464
+msgid "Editorias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1455
+msgid "Editoria"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1456
+msgid "Buscar Editoria"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1457
+msgid "Todas as Editorias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1458
+#: classes/helpers/IASD_Taxonomias.class.php:1459
+msgid "Editoria Superior"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1460
+msgid "Editar Editoria"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1461
+msgid "Atualizar Editoria"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1462
+msgid "Adicionar Nova Editoria"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1463
+msgid "Nome da Editoria"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1473
+msgid "editoria"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1492
+msgid "Seções"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1493
+#: classes/helpers/IASD_Taxonomias.class.php:1496
+#: classes/helpers/IASD_Taxonomias.class.php:1497
+#: classes/helpers/IASD_Taxonomias.class.php:1502
+msgid "Seção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1494
+msgid "Buscar Seção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1495
+msgid "Todas Seções"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1498
+msgid "Editar Seção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1499
+msgid "Atualizar Seção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1500
+msgid "Adicionar Seção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1501
+msgid "Nome da Seção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1511
+msgid "secao"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1528
+#: classes/helpers/IASD_Taxonomias.class.php:1538
+msgid "Regiões"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1529
+msgid "Região"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1530
+msgid "Buscar Região"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1531
+msgid "Todas as Regiões"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1532
+#: classes/helpers/IASD_Taxonomias.class.php:1533
+msgid "Região Superior"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1535
+msgid "Atualizar Região"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1536
+msgid "Adicionar Nova Região"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1537
+msgid "Nome da Região"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1547
+msgid "regiao"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1566
+#: classes/helpers/IASD_Taxonomias.class.php:1576
+msgid "Coleções"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1567
+msgid "Coleção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1568
+msgid "Buscar Coleção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1569
+msgid "Todas as Coleções"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1570
+#: classes/helpers/IASD_Taxonomias.class.php:1571
+msgid "Coleção Superior"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1572
+msgid "Editar Coleção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1573
+msgid "Atualizar Coleção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1574
+msgid "Adicionar Nova Coleção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1575
+msgid "Nome da Coleção"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1586
+msgid "colecao"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1605
+#: classes/helpers/IASD_Taxonomias.class.php:1615
+msgid "Tipos de Midias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1606
+msgid "Tipo de Midia"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1607
+msgid "Buscar Tipo de Midia"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1608
+msgid "Todas os Tipos de Midias"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1609
+#: classes/helpers/IASD_Taxonomias.class.php:1647
+#: classes/helpers/IASD_Taxonomias.class.php:1686
+msgid "Tipo Superior"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1610
+#: classes/helpers/IASD_Taxonomias.class.php:1648
+#: classes/helpers/IASD_Taxonomias.class.php:1687
+msgid "Tipo Superior:"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1611
+msgid "Editar Tipo de Midia"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1612
+msgid "Atualizar Tipo de Midia"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1613
+msgid "Adicionar Novo Tipo de Midia"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1614
+msgid "Nome do Tipo de Midia"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1624
+msgid "tipo-midia"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1643
+#: classes/helpers/IASD_Taxonomias.class.php:1653
+msgid "Tipos de Materiais"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1644
+msgid "Tipo de Material"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1645
+msgid "Buscar Tipo de Material"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1646
+msgid "Todos os Tipos de Materiais"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1649
+msgid "Editar Tipo de Material"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1650
+msgid "Atualizar Tipo de Material"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1651
+msgid "Adicionar Novo Tipo de Material"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1652
+msgid "Nome do Tipo de Material"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1662
+msgid "tipo-material"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1682
+#: classes/helpers/IASD_Taxonomias.class.php:1692
+msgid "Tipos de Eventos"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1683
+msgid "Tipo de Evento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1684
+msgid "Buscar Tipo de Evento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1685
+msgid "Todos os Tipos de Eventos"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1688
+msgid "Editar Tipo de Evento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1689
+msgid "Atualizar Tipo de Evento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1690
+msgid "Adicionar Novo Tipo de Evento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1691
+msgid "Nome do Tipo de Evento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1701
+msgid "tipo-evento"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1722
+#: classes/helpers/IASD_Taxonomias.class.php:1732
+msgid "Níveis de Destaque"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1723
+msgid "Nível de Destaque"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1724
+msgid "Buscar níveis"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1725
+msgid "Todos os níveis"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1726
+msgid "Grupo"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1727
+msgid "Grupo:"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1728
+msgid "Editar nível de destaque"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1729
+msgid "Atualizar nível"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1730
+msgid "Adicionar novo Nível de Destaque"
+msgstr ""
+
+#: classes/helpers/IASD_Taxonomias.class.php:1731
+msgid "Nome do nível"
+msgstr ""
+
+#: classes/helpers/IASD_Users.class.php:9
+msgid "Informações adicionais"
+msgstr ""
+
+#: classes/helpers/IASD_Users.class.php:14
+msgid "Sede proprietária"
+msgstr ""
+
+#: classes/helpers/IASD_Users.class.php:55
+msgid ""
+"Você não está com sua sede proprietária configurada. Por favor selecione a "
+"sua sede proprietária <a href=\""
+msgstr ""
+
+#: classes/helpers/IASD_ViewFragments.class.php:19
+msgid "Tweetar"
+msgstr ""
+
+#: classes/helpers/IASD_ViewFragments.class.php:30
+msgid "Imprimir página"
+msgstr ""
+
+#: classes/helpers/IASD_ViewFragments.class.php:31
+msgid "Leia este artigo do Portal Adventista"
+msgstr ""
+
+#: classes/helpers/IASD_ViewFragments.class.php:31
+msgid "Enviar por e-mail"
+msgstr ""
+
+#: classes/helpers/IASD_ViewFragments.class.php:45
+#: classes/helpers/IASD_ViewFragments.class.php:48
+#: classes/helpers/IASD_ViewFragments.class.php:50
+msgid "Clique para ir ao anterior"
+msgstr ""
+
+#: classes/helpers/IASD_ViewFragments.class.php:47
+#: classes/helpers/IASD_ViewFragments.class.php:50
+msgid "Anterior"
+msgstr ""
+
+#: classes/helpers/IASD_ViewFragments.class.php:58
+#: classes/helpers/IASD_ViewFragments.class.php:61
+#: classes/helpers/IASD_ViewFragments.class.php:63
+msgid "Clique para ir ao próximo"
+msgstr ""
+
+#: classes/helpers/IASD_ViewFragments.class.php:60
+#: classes/helpers/IASD_ViewFragments.class.php:63
+msgid "Próximo"
+msgstr ""
+
+#: classes/helpers/TaxonomyImageController.class.php:24
+msgid "Image"
+msgstr ""
+
+#: classes/helpers/TaxonomyImageController.class.php:29
+msgid "Nenhuma imagem selecionada"
+msgstr ""
+
+#: classes/helpers/TaxonomyImageController.class.php:33
+#: classes/helpers/TaxonomyImageController.class.php:61
+msgid "Selecione outra imagem"
+msgstr ""
+
+#: classes/helpers/TaxonomyImageController.class.php:35
+msgid "Selecione uma imagem"
+msgstr ""
+
+#: classes/helpers/TaxonomyImageController.class.php:78
+#: classes/helpers/TaxonomyImageController.class.php:87
+#: classes/widgets/IASD_ListaDePosts.class.php:557
+#: classes/widgets/IASD_ListaDePosts.class.php:743
+#: classes/widgets/IASD_ListaDePosts.class.php:2496
+msgid "Link"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:9
+msgid "Formulário para contato de interessados na Educação Adventista."
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:10
+msgid "CPB: Interessados em matrícula"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:18
+#: classes/widgets/IASD_FindChurch.class.php:30
+#: classes/widgets/IASD_ImageWidget.class.php:112
+#: classes/widgets/IASD_SliderServicos.class.php:42
+#: classes/widgets/IASD_Text.class.php:61
+msgid "Disposição:"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:20
+#: classes/widgets/IASD_FindChurch.class.php:32
+#: classes/widgets/IASD_ImageWidget.class.php:114
+#: classes/widgets/IASD_SliderServicos.class.php:44
+#: classes/widgets/IASD_Text.class.php:63
+msgid "1/3 de coluna"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:21
+#: classes/widgets/IASD_ImageWidget.class.php:115
+#: classes/widgets/IASD_SliderServicos.class.php:45
+#: classes/widgets/IASD_Text.class.php:64
+msgid "2/3 de coluna"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:53
+msgid "Estude conosco"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:59
+msgid "Estado"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:66
+msgid "Cidade"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:73
+msgid "Escola"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:80
+msgid "Ano"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:84
+msgid "Nome"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:85
+msgid "Responsável"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:86
+msgid "Email"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:87
+msgid "Telefone"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:89
+msgid "Mensagem"
+msgstr ""
+
+#: classes/widgets/CPB_InterestContact.class.php:92
+msgid "Enviar"
+msgstr ""
+
+#: classes/widgets/IASD_AdaptableWidget.class.php:47
+#: classes/widgets/IASD_ListaDePosts.class.php:1311
+msgid "1/3 da Coluna"
+msgstr ""
+
+#: classes/widgets/IASD_AdaptableWidget.class.php:49
+#: classes/widgets/IASD_ListaDePosts.class.php:1313
+msgid "2/3 da Coluna"
+msgstr ""
+
+#: classes/widgets/IASD_AdaptableWidget.class.php:90
+msgid "Largura:"
+msgstr ""
+
+#: classes/widgets/IASD_AdaptableWidget.class.php:106
+msgid "Aguarde o carregamento das opções iniciais"
+msgstr ""
+
+#: classes/widgets/IASD_CustomMenu.class.php:11
+msgid "Use this widget to add one of your custom menus as a widget."
+msgstr ""
+
+#: classes/widgets/IASD_CustomMenu.class.php:13
+msgid "IASD: Menu Personalizado"
+msgstr ""
+
+#: classes/widgets/IASD_CustomMenu.class.php:45
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: classes/widgets/IASD_CustomMenu.class.php:50
+msgid "Select Menu:"
+msgstr ""
+
+#: classes/widgets/IASD_FacebookWidget.class.php:9
+msgid "Plug-in social do facebook que apresenta os likes para uma página."
+msgstr ""
+
+#: classes/widgets/IASD_FacebookWidget.class.php:10
+msgid "IASD: Facebook Box"
+msgstr ""
+
+#: classes/widgets/IASD_FacebookWidget.class.php:23
+msgid "URL do post ou página"
+msgstr ""
+
+#: classes/widgets/IASD_FacebookWidget.class.php:28
+msgid "Altura do box"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:9
+msgid "Formulário e Link para o site Encontre uma igreja."
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:10
+msgid "IASD: Encontre uma Igreja"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:33
+#: classes/widgets/IASD_ImageWidget.class.php:116
+#: classes/widgets/IASD_SliderServicos.class.php:46
+#: classes/widgets/IASD_Text.class.php:65
+msgid "Largura total"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:110
+msgid "Divisão Sul Americana"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:115
+msgid "Nenhuma Igreja Adventista localizada"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:117
+msgid "Igreja Adventista está localizada"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:119
+msgid "Igrejas Adventistas estão localizadas"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:126
+msgid "Encontre uma igreja"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:129
+msgid "na"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:132
+msgid "Encontre a mais próxima de você:"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:134
+msgid "Ex: cidade, CEP, bairro"
+msgstr ""
+
+#: classes/widgets/IASD_FindChurch.class.php:136
+msgid "Encontre"
+msgstr ""
+
+#: classes/widgets/IASD_ImageWidget.class.php:13
+msgid "Widget de imagem da IASD"
+msgstr ""
+
+#: classes/widgets/IASD_ImageWidget.class.php:14
+msgid "IASD: Imagem"
+msgstr ""
+
+#: classes/widgets/IASD_ImageWidget.class.php:81
+msgid "Título:"
+msgstr ""
+
+#: classes/widgets/IASD_ImageWidget.class.php:84
+msgid "Link:"
+msgstr ""
+
+#: classes/widgets/IASD_ImageWidget.class.php:88
+msgid "Abrir link:"
+msgstr ""
+
+#: classes/widgets/IASD_ImageWidget.class.php:90
+msgid "Mesma aba"
+msgstr ""
+
+#: classes/widgets/IASD_ImageWidget.class.php:91
+msgid "Nova aba"
+msgstr ""
+
+#: classes/widgets/IASD_ImageWidget.class.php:108
+msgid "Selecionar imagem"
+msgstr ""
+
+#: classes/widgets/IASD_ImageWidget.class.php:193
+#: classes/widgets/IASD_ListaDePosts.class.php:1656
+msgid "Clique em \"Salvar\" para mostrar as opções iniciais"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:74
+msgid "Data"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:75
+msgid "Título"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:76
+msgid "Aleatório"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:88
+msgid ""
+"Widget de listagem de posts da IASD. Incluindo filtros avançados e consulta "
+"à sites externos compativeis."
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:89
+msgid "IASD: Lista de Posts"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:153
+#: classes/widgets/IASD_ListaDePosts.class.php:274
+msgid "Portal ASN"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:157
+#: classes/widgets/IASD_ListaDePosts.class.php:277
+msgid "Portal Videos"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:161
+#: classes/widgets/IASD_ListaDePosts.class.php:280
+msgid "Portal Materiais"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:165
+#: classes/widgets/IASD_ListaDePosts.class.php:283
+msgid "Portal Eventos"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:167
+msgid "Outra"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:248
+msgid "Recarregar"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:271
+msgid "Local"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:295
+#: views/iasd_listadeposts/form_appearance_date_query.php:14
+msgid "Última semana"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:298
+#: views/iasd_listadeposts/form_appearance_date_query.php:15
+msgid "Última quinzena"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:301
+#: views/iasd_listadeposts/form_appearance_date_query.php:16
+msgid "Último mês"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:304
+#: views/iasd_listadeposts/form_appearance_date_query.php:17
+msgid "Últimos 3 meses"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:307
+#: views/iasd_listadeposts/form_appearance_date_query.php:18
+msgid "Últimos 6 meses"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:310
+#: views/iasd_listadeposts/form_appearance_date_query.php:19
+msgid "Último ano"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:318
+#: views/iasd_listadeposts/form_appearance_orderby.php:32
+msgid "Crescente"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:320
+#: views/iasd_listadeposts/form_appearance_orderby.php:33
+msgid "Decrescente"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:334
+msgid "Organizar conteúdo"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:337
+msgid "Regras de filtragem"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:337
+#: classes/widgets/IASD_ListaDePosts.class.php:788
+msgid "(ocultar)"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:443
+#: classes/widgets/IASD_ListaDePosts.class.php:620
+#: classes/widgets/IASD_ListaDePosts.class.php:694
+msgid "Ajuda "
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:448
+msgid ""
+"Este é o conteúdo atual do post. Nesta aba você pode fazer duas ações: fixar "
+"e ordenar posts.<br/><br/>\n"
+"Para fixar um post, basta clicar no pin (<img src=\"wp-content/plugins/pa-"
+"plugin-utilities/static/img/pin.png\" class=\"pin\" width=\"15px\" height="
+"\"15px\" style=\"padding:0px;\">). Ao fixar um post você impede que a "
+"inclusão de outros posts façam com que ele seja removido da visualização. "
+"<br/><br/>Posts fixos tem prioridade de exibição\n"
+"Para ordenar um post, basta arrastá-lo e soltá-lo na ordem desejada. Apenas "
+"posts fixos podem ser ordenados."
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:468
+#: classes/widgets/IASD_ListaDePosts.class.php:2554
+msgid "Nenhum resultado encontrado."
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:542
+#: classes/widgets/IASD_ListaDePosts.class.php:577
+#: classes/widgets/IASD_ListaDePosts.class.php:2479
+#: classes/widgets/IASD_ListaDePosts.class.php:2516
+msgid "Editar Post"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:543
+#: classes/widgets/IASD_ListaDePosts.class.php:578
+#: classes/widgets/IASD_ListaDePosts.class.php:2480
+#: classes/widgets/IASD_ListaDePosts.class.php:2517
+msgid "Remover Post"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:545
+#: classes/widgets/IASD_ListaDePosts.class.php:2482
+msgid "mais detalhes"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:556
+#: classes/widgets/IASD_ListaDePosts.class.php:725
+#: classes/widgets/IASD_ListaDePosts.class.php:2495
+msgid "Title"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:558
+#: classes/widgets/IASD_ListaDePosts.class.php:731
+#: classes/widgets/IASD_ListaDePosts.class.php:2497
+msgid "Excerpt"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:580
+#: classes/widgets/IASD_ListaDePosts.class.php:2519
+msgid "ocultar"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:625
+msgid ""
+"Você pode pesquisar por qualquer post que se enquadre nas regras de "
+"filtragem<br/><br/>\n"
+"\t\tAo clicar no pin (<img src=\"wp-content/plugins/pa-plugin-utilities/"
+"static/img/pin.png\" class=\"pin\" width=\"15px\" height=\"15px\" style="
+"\"padding:0px;\">). o post aparecerá na aba conteúdo como estatus \"fixo\", "
+"ou seja, novos posts não farão com que ele suma da visualização.<br/><br/"
+">Para remover da visualização um post pesquisado, basta desafixá-lo na aba "
+"Conteúdo."
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:642
+msgid "Busca por conteúdo"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:665
+msgid "Buscando.."
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:679
+msgid "Por favor usar pelo menos 3 caracteres na sua pesquisa."
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:699
+msgid ""
+"Você pode adicionar manualmente um ítem ao conteúdo inserindo diretamente os "
+"dados do ítem no formulário abaixo. Todos os campos são obrigatórios."
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:719
+msgid "Post Personalizado"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:749
+msgid "Cancelar"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:791
+msgid "(mostrar)"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:1485
+#: views/iasd_listadeposts/form_appearance_seemore.php:22
+msgid "Veja mais"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:1685
+msgid "Conteúdo"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:1728
+msgid "Aparência"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:1790
+msgid "Ver Conteúdos"
+msgstr ""
+
+#: classes/widgets/IASD_ListaDePosts.class.php:2556
+msgid "Por uma questão de performace, apresentamos os "
+msgstr ""
+
+#: classes/widgets/IASD_MonthlyArchives.class.php:13
+msgid "Widget de arquivos mensais da IASD"
+msgstr ""
+
+#: classes/widgets/IASD_MonthlyArchives.class.php:14
+msgid "IASD: Arquivos mensais"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:64
+msgid "Apresenta o horário de entrada e saída do Sábado"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:65
+msgid "IASD: Pôr-do-sol"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:276
+msgid "Pôr-do-sol"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:281
+msgid "Friday"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:286
+msgid "Saturday"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:289
+msgid "Clique para ver datas anteriores"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:289
+msgid "Datas anteriores"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:290
+msgid "Clique para ver datas próximas"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:290
+msgid "Datas próximas"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:293
+msgid "Horário válido para"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:295
+msgid "Clique para trocar a cidade"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:295
+msgid "Trocar cidade"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:299
+msgid "Procurar cidade"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:300
+msgid "Digite aqui o nome da cidade"
+msgstr ""
+
+#: classes/widgets/IASD_PorDoSol.class.php:302
+msgid "Atualizar cidade"
+msgstr ""
+
+#: classes/widgets/IASD_RevistaAdventistaWidget.class.php:13
+msgid "Lista os posts que representa as capa das edições da revista"
+msgstr ""
+
+#: classes/widgets/IASD_RevistaAdventistaWidget.class.php:15
+msgid "IASD: Revista"
+msgstr ""
+
+#: classes/widgets/IASD_SliderServicos.class.php:10
+msgid "Lista serviços de acordo com os links cadastrados no site"
+msgstr ""
+
+#: classes/widgets/IASD_SliderServicos.class.php:11
+msgid "IASD: Slider de Serviços"
+msgstr ""
+
+#: classes/widgets/IASD_SliderServicos.class.php:29
+msgid "Selecione uma categoria:"
+msgstr ""
+
+#: classes/widgets/IASD_SliderServicos.class.php:140
+msgid "Serviços"
+msgstr ""
+
+#: classes/widgets/IASD_TagList.class.php:8
+msgid "Apresenta uma lista das tags, taxonomias e categorias."
+msgstr ""
+
+#: classes/widgets/IASD_TagList.class.php:9
+msgid "IASD: Lista de Tags"
+msgstr ""
+
+#: classes/widgets/IASD_Text.class.php:14
+msgid "Widget de texto (ou html) da IASD"
+msgstr ""
+
+#: classes/widgets/IASD_Text.class.php:15
+msgid "IASD: Texto"
+msgstr ""
+
+#: classes/widgets/IASD_TwitterWidget.class.php:14
+msgid "Widget da IASD onde se insere o plug-in social do twitter."
+msgstr ""
+
+#: classes/widgets/IASD_TwitterWidget.class.php:15
+msgid "IASD: Twitter"
+msgstr ""
+
+#: classes/widgets/IASD_TwitterWidget.class.php:88
+msgid "Insira abaixo o código fornecido pelo twitter."
+msgstr ""
+
+#: classes/widgets/JSONScrollerWidget.class.php:10
+msgid ""
+"Widget de scroller de links extraidos de um Json Feed. Requer o plugin "
+"<b>Fluid Video Embeds</b> e procura o link na meta <b>dp_video_url</b>"
+msgstr ""
+
+#: classes/widgets/JSONScrollerWidget.class.php:11
+msgid "Json Client: Scroller"
+msgstr ""
+
+#: classes/widgets/JSONScrollerWidget.class.php:60
+msgid "Videos Relacionados"
+msgstr ""
+
+#: classes/widgets/NT_Links.class.php:8
+msgid "Links para a TV e Rádio Novo Tempo."
+msgstr ""
+
+#: classes/widgets/NT_Links.class.php:9
+msgid "IASD: Novo Tempo"
+msgstr ""
+
+#: classes/widgets/NT_Links.class.php:56
+msgid "Novo tempo"
+msgstr ""
+
+#: classes/widgets/NT_Links.class.php:58
+msgid "Assista a TV Novo Tempo"
+msgstr ""
+
+#: classes/widgets/NT_Links.class.php:59
+msgid "Sintonize a Rádio Novo Tempo online"
+msgstr ""
+
+#: classes/widgets/feliz7play/pa-pub-feliz7play.php:23
+msgid "Widget com slider do conteúdos recentes do feliz7play.com."
+msgstr ""
+
+#: classes/widgets/feliz7play/pa-pub-feliz7play.php:24
+msgid "IASD: Slider F7"
+msgstr ""
+
+#: classes/widgets/feliz7play/pa-pub-feliz7play.php:56
+msgid "Ir para o Feliz 7  Play"
+msgstr ""
+
+#: classes/widgets/feliz7play/pa-pub-feliz7play.php:60
+msgid "Você ja conhece o Feliz 7 Play?"
+msgstr ""
+
+#: classes/widgets/feliz7play/pa-pub-feliz7play.php:63
+#: classes/widgets/feliz7play/pa-pub-feliz7play.php:77
+msgid "ASSISTA GRÁTIS"
+msgstr ""
+
+#: classes/widgets/feliz7play/pa-pub-feliz7play.php:105
+msgid "Banner publicitário automático do Feliz 7 Play"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_date_query.php:8
+msgid "Data de Publicação"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_date_query.php:13
+msgid "Não filtrar"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_grouping_taxonomy.php:36
+msgid "Opção \"Escolher\""
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_grouping_taxonomy.php:37
+msgid "Defina marcadores no <b>Filtro De Marcadores</b> antes de configurar."
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_grouping_taxonomy.php:40
+msgid "Tipo de Marcador:"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_grouping_taxonomy.php:63
+msgid "Padrão:"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_grouping_taxonomy.php:93
+msgid "Forçar a escolha de uma opção antes de mostrar conteúdo"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_orderby.php:13
+msgid "Ordenação"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_post_per_page.php:9
+msgid "Quantidade de itens"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_seemore.php:6
+msgid "Veja Mais"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_seemore.php:27
+msgid "Texto do link"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_seemore.php:34
+msgid "Titulo da página destino"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_view.php:8
+msgid "Formato"
+msgstr ""
+
+#: views/iasd_listadeposts/form_appearance_width.php:8
+msgid "Disposição"
+msgstr ""
+
+#: views/iasd_listadeposts/form_content_authors.php:17
+#: views/iasd_listadeposts/form_content_authors.php:39
+msgid "Filtro de Autores"
+msgstr ""
+
+#: views/iasd_listadeposts/form_content_authors.php:27
+#: views/iasd_listadeposts/form_content_taxonomies.php:22
+msgid "Usar filtro contextual"
+msgstr ""
+
+#: views/iasd_listadeposts/form_content_authors.php:37
+#: views/iasd_listadeposts/form_content_taxonomies.php:73
+msgid "Não repetir"
+msgstr ""
+
+#: views/iasd_listadeposts/form_content_post_type.php:8
+msgid "Tipo de Conteúdo"
+msgstr ""
+
+#: views/iasd_listadeposts/form_content_source_extra.php:17
+msgid "Verificar"
+msgstr ""
+
+#: views/iasd_listadeposts/form_content_source_id.php:7
+msgid "Fonte de conteúdo"
+msgstr ""
+
+#: views/iasd_listadeposts/form_content_taxonomies.php:12
+msgid "Filtro de Marcadores"
+msgstr ""
+
+#: views/iasd_listadeposts/render_grouping_taxonomy.php:17
+#: views/iasd_listadeposts/render_grouping_taxonomy.php:21
+msgid "Escolher"
+msgstr ""
+
+#: views/iasd_listadeposts/render_grouping_taxonomy.php:24
+msgid "disponíveis"
+msgstr ""
+
+#: views/iasd_listadeposts/render_grouping_taxonomy.php:27
+msgid "Todos"
+msgstr ""
+
+#: views/iasd_listadeposts_views/box.php:15
+#: views/iasd_listadeposts_views/grid.php:15
+#: views/iasd_listadeposts_views/grid_five.php:9
+#: views/iasd_listadeposts_views/grid_five.php:23
+#: views/iasd_listadeposts_views/grid_five.php:38
+#: views/iasd_listadeposts_views/grid_three.php:8
+#: views/iasd_listadeposts_views/grid_three.php:23
+#: views/iasd_listadeposts_views/list.php:32
+#: views/iasd_listadeposts_views/list_galleries.php:13
+#: views/iasd_listadeposts_views/slider_asn.php:10
+#: views/iasd_listadeposts_views/slider_galleries.php:15
+#: views/iasd_listadeposts_views/slider_highlights.php:14
+#: views/iasd_listadeposts_views/slider_highlights_author.php:13
+msgid "Clique para ler a matéria completa"
+msgstr ""
+
+#: views/iasd_listadeposts_views/box.php:25
+#: views/iasd_listadeposts_views/box_events.php:45
+#: views/iasd_listadeposts_views/grid.php:34
+#: views/iasd_listadeposts_views/grid_details.php:22
+#: views/iasd_listadeposts_views/grid_details_thumbs.php:72
+#: views/iasd_listadeposts_views/grid_five.php:50
+#: views/iasd_listadeposts_views/grid_three.php:39
+#: views/iasd_listadeposts_views/list.php:58
+#: views/iasd_listadeposts_views/list_galleries.php:31
+#: views/iasd_listadeposts_views/thumbnail_view.php:28
+msgid "Mais notícias"
+msgstr ""
+
+#: views/iasd_listadeposts_views/box.php:25
+#: views/iasd_listadeposts_views/box_events.php:45
+#: views/iasd_listadeposts_views/grid.php:34
+#: views/iasd_listadeposts_views/grid_details.php:22
+#: views/iasd_listadeposts_views/grid_details_thumbs.php:72
+#: views/iasd_listadeposts_views/grid_five.php:50
+#: views/iasd_listadeposts_views/grid_three.php:39
+#: views/iasd_listadeposts_views/list.php:58
+#: views/iasd_listadeposts_views/list_galleries.php:31
+#: views/iasd_listadeposts_views/thumbnail_view.php:28
+msgid "Clique para ver todas as notícias"
+msgstr ""
+
+#: views/iasd_listadeposts_views/box_events.php:18
+#, php-format
+msgid "De %s a %s"
+msgstr ""
+
+#: views/iasd_listadeposts_views/grid_details.php:15
+#: views/iasd_listadeposts_views/grid_details_thumbs.php:27
+#: views/iasd_listadeposts_views/grid_details_thumbs.php:57
+msgid "Detalhes"
+msgstr ""
+
+#: views/iasd_listadeposts_views/grid_details_thumbs.php:25
+msgid "Tel"
+msgstr ""
+
+#: views/iasd_listadeposts_views/grid_details_thumbs.php:26
+msgid "Fax"
+msgstr ""
+
+#: views/iasd_listadeposts_views/grid_details_thumbs.php:52
+msgid "CEP"
+msgstr ""
+
+#: views/iasd_listadeposts_views/list_buttons.php:16
+msgid "Clique para acessar o projeto"
+msgstr ""
+
+#: views/iasd_listadeposts_views/slider_columns.php:21
+#: views/revista_adventista/template-edicao-revista-adventista.php:40
+#: views/revista_adventista/template-edicao-revista-adventista.php:74
+#: views/revista_adventista/template-edicao-revista-adventista.php:100
+msgid "Clique para ler o artigo completo"
+msgstr ""
+
+#: views/iasd_listadeposts_views/slider_galleries.php:34
+msgid "Mais imagens"
+msgstr ""
+
+#: views/iasd_listadeposts_views/slider_galleries.php:34
+msgid "Clique para ver todas as imagens"
+msgstr ""
+
+#: views/iasd_listadeposts_views/slider_highlights_author.php:41
+msgid "Comentários"
+msgstr ""
+
+#: views/iasd_listadeposts_views/slider_newsstand.php:16
+#: views/revista_adventista/widget-revista-adventista.php:37
+msgid "Clique para acessar a edição completa"
+msgstr ""
+
+#: views/iasd_listadeposts_views/slider_newsstand.php:32
+msgid "Mais edições"
+msgstr ""
+
+#: views/iasd_listadeposts_views/slider_newsstand.php:32
+#: views/revista_adventista/widget-revista-adventista.php:52
+msgid "Clique para ver todas as edições"
+msgstr ""
+
+#: views/iasd_listadeposts_views/slider_services.php:14
+msgid "Clique para acessar a página"
+msgstr ""
+
+#: views/iasd_listadeposts_views/thumbnail_view.php:16
+#: views/iasd_listadeposts_views/thumbnail_view.php:17
+msgid "Clique para ver os infográficos"
+msgstr ""
+
+#: views/revista_adventista/archive-revista-adventista.php:15
+msgid "Revista Adventista"
+msgstr ""
+
+#: views/revista_adventista/archive-revista-adventista.php:22
+msgid "Clique para ver a edição"
+msgstr ""
+
+#: views/revista_adventista/archive-revista-adventista.php:32
+#: views/revista_adventista/template-edicao-revista-adventista.php:118
+msgid "Mostrar mais"
+msgstr ""
+
+#: views/revista_adventista/template-edicao-revista-adventista.php:86
+msgid "Artigos"
+msgstr ""
+
+#: views/revista_adventista/widget-revista-adventista.php:52
+msgid "Mais edições &raquo;"
+msgstr ""

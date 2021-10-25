@@ -1,0 +1,11 @@
+{
+"slug": "pa-plugin-utilities",
+"plugin_name": "pa-plugin-utilities",
+"new_version": "1.0.13",
+"requires": "3.0",
+"tested": "3.3.1",
+"downloaded": 12541,
+"last_updated": "2014-10-01",
+"sections":"",	
+"download_link": "https://bitbucket.org/internetdsa/pa-plugin-utilities/get/1.0.11.zip"
+}
