@@ -55,7 +55,6 @@ function criaPaginas() {
 			'page_template'	=> 'page-front-page.blade.php',
 		);
 		
-		wp_insert_post( $post_data, $error_obj );
-
+		$post_id = wp_insert_post( $post_data, $error_obj );
 	}
 }
