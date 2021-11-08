@@ -4,3 +4,7 @@ task-definition.json
 update.sh
 **/*.git
 **/*.e*
+
+**/pa-theme*
+
+**/node_modules

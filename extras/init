@@ -13,7 +13,7 @@ sed -i -e "s/REPLACE_WITH_REAL_KEY/$NEWRELIC_KEY/" \
   -e '$anewrelic.distributed_tracing_enabled=true' \
   -e '$anewrelic.framework.wordpress.hooks=true' \
   $(php -r "echo(PHP_CONFIG_FILE_SCAN_DIR);")/newrelic.ini
-echo "Fim da instalação da extensão"
+echo "Fim da instalação do NewRelic"
 
 echo "Ajuste nas permissões da pasta uploads"
 rm -rf /var/www/html/wp-content
