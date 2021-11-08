@@ -164,7 +164,7 @@ function xtt_pa_format_init() {
 
 }
 
-add_action( 'init', 'xtt_pa_format_init' );
+//add_action( 'init', 'xtt_pa_format_init' );
 
 /**
  * Sets the post updated messages for the `xtt_pa_format` taxonomy.
