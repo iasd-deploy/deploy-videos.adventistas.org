@@ -1228,19 +1228,19 @@ class IASD_Taxonomias {
 
 
 	public static function RegisterTaxonomies() {
-		self::Register_Projetos();
-		self::Register_Departamentos();
-		self::Register_Editorias();
-		self::Register_Regiao();
-		self::Register_Colecoes();
-		self::Register_Midia();
-		self::Register_Material();
-		self::Register_Destaque();
-		self::Register_Evento();
-		self::Register_Owner();
-		self::Register_Secao();
-		self::Register_Sedes();
-		self::Register_Category();
+		// self::Register_Projetos();
+		// self::Register_Departamentos();
+		// self::Register_Editorias();
+		// self::Register_Regiao();
+		// self::Register_Colecoes();
+		// self::Register_Midia();
+		// self::Register_Material();
+		// self::Register_Destaque();
+		// self::Register_Evento();
+		// self::Register_Owner();
+		// self::Register_Secao();
+		// self::Register_Sedes();
+		// self::Register_Category();
 
 
 		if(!wp_get_schedule( self::UPDATE_ACTION, array('useless' => 3600) ) )
