@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-02 14:26:07+0000\n"
+"PO-Revision-Date: 2021-11-09 14:46:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -144,6 +144,10 @@ msgstr "Indexação e pesquisa instantânea"
 msgid "Help your site visitors find answers instantly so they keep reading and buying. Great for sites with a lot of content."
 msgstr "Ajude os visitantes do seu site a encontrar respostas imediatamente para que continuem lendo e comprando. Ótimo para sites com muito conteúdo."
 
+#: class.jetpack.php:6731
+msgid "Jetpack Site Search"
+msgstr "Jetpack Site Search"
+
 #: class.jetpack.php:6726
 msgctxt "Scan Product Feature"
 msgid "Instant email notifications"
@@ -181,6 +185,10 @@ msgstr "Backups diários automáticos (em outro local)"
 #: class.jetpack.php:6705
 msgid "Never lose a word, image, page, or time worrying about your site with automated backups & one-click restores."
 msgstr "Nunca perca uma palavra, imagem, página ou tempo se preocupando com seu site com backups automatizados e restaurações em um clique."
+
+#: class.jetpack.php:6776 _inc/build/admin.js:69
+msgid "Jetpack VideoPress"
+msgstr "Jetpack VideoPress"
 
 #: class.jetpack.php:6778 _inc/build/admin.js:69
 msgid "High-quality, ad-free video built specifically for WordPress."
