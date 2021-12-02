@@ -49,6 +49,8 @@ $_SERVER['HTTPS']='on';
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'WP_AUTO_UPDATE_CORE', false );
 define( 'SITE', 'videos' );
+define('PA_LANG', true);
+
 
 /* Multisite */
 define('WP_ALLOW_MULTISITE', true );

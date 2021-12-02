@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-26 10:48:30+0000\n"
+"PO-Revision-Date: 2021-11-30 05:11:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,10 @@ msgstr ""
 msgid "Install a Let's Encrypt SSL Certificate with Really Simple SSL"
 msgstr "Instala un certificado SSL de Let's Encrypt con Really Simple SSL"
 
+#: grid/templates/tips-tricks.php:7
+msgid "Improve security: Add Cross-Site Protection Headers to prevent malicious attacks"
+msgstr "Mejora la seguridad: Añade las cabeceras de protección XSS para evitar ataques malintencionados"
+
 #: class-site-health.php:76
 msgid "Your website does not send all recommended security headers."
 msgstr "Tu web no envía todas las cabeceras de seguridad recomendadas."
@@ -25,7 +29,11 @@ msgstr "Seguridad"
 
 #: class-admin.php:3370
 msgid "Recommended security headers enabled."
-msgstr "Cabeceras de seguridad recomendadas iactivadas."
+msgstr "Cabeceras de seguridad recomendadas activadas."
+
+#: class-admin.php:3363
+msgid "The following recommended security headers are not enabled:"
+msgstr "Las siguientes cabeceras de seguridad recomendadas no están activas:"
 
 #: lets-encrypt/wizard/config/questions.php:63
 msgid "Disable OCSP Stapling"
