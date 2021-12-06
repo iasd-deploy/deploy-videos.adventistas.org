@@ -1,4 +1,4 @@
-FROM wordpress:php8.1
+FROM wordpress:php8.0
 
 COPY --chown=www-data:www-data app /var/www/html
 
