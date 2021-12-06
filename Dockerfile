@@ -1,6 +1,8 @@
-FROM wordpress:php8.0
+FROM wordpress:php8.1
 
 COPY --chown=www-data:www-data app /var/www/html
+
+RUN docker-php-ext-install opcache
 
 COPY --chown=www-data:www-data --from=internetdsa/pa-theme-sedes /var/www/build /var/www/html/pt/wp-content/themes/pa-theme-sedes
 COPY --chown=www-data:www-data --from=internetdsa/pa-theme-sedes /var/www/build /var/www/html/es/wp-content/themes/pa-theme-sedes
@@ -8,6 +10,7 @@ COPY --chown=www-data:www-data --from=internetdsa/pa-theme-videos /var/www/build
 COPY --chown=www-data:www-data --from=internetdsa/pa-theme-videos /var/www/build /var/www/html/es/wp-content/themes/pa-theme-videos
 
 COPY extras/init /usr/local/bin/docker-entrypoint.sh
+COPY extras/opcache.ini /usr/local/etc/php/conf.d/opcache.ini
 
 ARG WP_DB_HOST
 ARG WP_DB_NAME
