@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-10 16:31:06+0000\n"
+"PO-Revision-Date: 2021-12-06 11:27:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -148,7 +148,7 @@ msgstr "Patrones sugeridos para bloques"
 
 #: wp-admin/about.php:175
 msgid "Sometimes you need a simple landing page, but sometimes you need something a little more robust. As blocks increase, patterns emerge, and content creation gets easier, new solutions are needed to make complex content easy to navigate. List View is the best way to jump between layers of content and nested blocks. Since the List View gives you an overview of all the blocks in your content, you can now navigate quickly to the precise block you need. Ready to focus completely on your content? Toggle it on or off to suit your workflow."
-msgstr "Algunas veces necesitas una sencilla página de destino, pero otras veces necesitas algo un poco más robusto. A medida que aumentan los bloques, surgen patrones y se hace más fácil la creación de contenido, se necesitan nuevas soluciones para hacer sencilla la navegación por contenidos complejos. La vista de lista es la mejor forma para de saltar entre capas de contenido y bloques anidados. Como la vista de lista te da una visión general de todos los bloques de tu contenido, ahora puedes navegar rápidamente hasta el bloque preciso que necesitas. ¿Preparado para centrarte completamente en tu contenido? Actívala o desactívala para adaptarla a tu flujo de trabajo."
+msgstr "Algunas veces necesitas una sencilla página de destino, pero otras veces necesitas algo un poco más robusto. A medida que aumentan los bloques, surgen patrones y se hace más fácil la creación de contenido, se necesitan nuevas soluciones para hacer sencilla la navegación por contenidos complejos. La vista de lista es la mejor forma para de saltar entre capas de contenido y bloques anidados. Como la vista de lista te da una visión general de todos los bloques de tu contenido, ahora puedes navegar rápidamente hasta el bloque preciso que necesitas. ¿Preparado para concentrarte completamente en tu contenido? Actívala o desactívala para adaptarla a tu flujo de trabajo."
 
 #: wp-admin/about.php:171
 msgid "Overview of the Page Structure"
