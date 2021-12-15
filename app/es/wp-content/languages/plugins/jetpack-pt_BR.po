@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-09 09:54:09+0000\n"
+"PO-Revision-Date: 2021-12-13 20:54:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -867,7 +867,7 @@ msgstr "Exiba o menu de compartilhamento no reprodutor."
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-videopress.php:55
 msgid "The video content rating. One of G, PG-13 or R-17"
-msgstr "A classificação do conteúdo do vídeo. G (livre), PG-13 (acima de 13 anos) ou R-17 (acima de 17 anos)"
+msgstr "A classificação do conteúdo do vídeo. Uma destas: G (classificação livre), PG-13 (indicado para maiores de 13 anos), R-17 (menores de 17 anos apenas acompanhados dos pais ou responsável) ou X-18 (apenas para maiores de 18 anos)"
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-videopress.php:49
 msgid "The description of the video."
@@ -6680,7 +6680,7 @@ msgstr "Fazer login com WordPress.com não está disponível porque este site es
 #. Translators: placeholder is an IP address.
 #: views/admin/network-settings.php:43
 msgid "Your current IP: %1$s"
-msgstr "Seu IP atual: %1$s"
+msgstr "Seu IP atual: %(ip)s"
 
 #: _inc/lib/class.core-rest-api-endpoints.php:1303
 msgid "Invalid parameter \"dismissed\"."
@@ -8386,7 +8386,7 @@ msgstr "URL da Página do Facebook"
 #. translators: %s: link to widgets administration screen.
 #: modules/widgets/facebook-likebox.php:84
 msgid "It looks like your Facebook URL is incorrectly configured. Please check it in your <a href=\"%1$s\">widget settings</a>."
-msgstr "Parece que a sua URL do Facebook foi configurada incorretamente. Verifique a URL nas <a href=\"%1$s\">configurações do widget</a>."
+msgstr "Parece que o seu URL do Facebook está configurado incorretamente. Verifique-o em suas <a href=\"%s\">configurações de widget</a>."
 
 #: modules/widgets/contact-info.php:329
 msgid "Hours:"
