@@ -17,5 +17,5 @@ User-agent: SemrushBot
 Allow: *
 
 
-Sitemap: http://videos.adventistas.org/es/sitemap_index.xml
-Sitemap: http://videos.adventistas.org/pt/sitemap_index.xml
+Sitemap: https://videos.adventistas.org/es/sitemap_index.xml
+Sitemap: https://videos.adventistas.org/pt/sitemap_index.xml
