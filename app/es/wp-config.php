@@ -52,6 +52,10 @@ define( 'SITE', 'videos' );
 define('PA_LANG', true);
 
 
+// Ativa a lixeira das midias
+define('MEDIA_TRASH', true);
+
+
 /* Multisite */
 define('WP_ALLOW_MULTISITE', true );
 define('MULTISITE', true);
