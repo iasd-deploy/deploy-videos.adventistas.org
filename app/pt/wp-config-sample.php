@@ -84,6 +84,10 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+/* Adicione valores personalizados entre esta linha até "Isto é tudo". */
+
+
+
 /* Isto é tudo, pode parar de editar! :) */
 
 /** Caminho absoluto para o diretório WordPress. */
