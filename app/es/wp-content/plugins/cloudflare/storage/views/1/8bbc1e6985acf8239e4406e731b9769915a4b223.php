@@ -1,7 +1,7 @@
 <?php if(is_admin()): ?>
     <img class="img-preview" src="<?php echo e(get_template_directory_uri()); ?>/Blocks/PAFeliz7Play/preview.png" alt="<?php echo e(__('Illustrative image of the front end of the block.', 'iasd')); ?>" />
 <?php else: ?> 
-	<div class="pa-widget pa-w-feliz7play py-4 col-12 position-relative bg-light mt-5">
+	<div class="pa-widget pa-w-feliz7play py-4 col-12 position-relative bg-light mb-5">
 		<div class="pa-slider-header mb-4">
 			<div class="d-flex justify-content-between align-items-center">
 				<img src="<?php echo e(get_template_directory_uri()); ?>/Blocks/PAFeliz7Play/assets/images/f7p-logo.svg" alt="<?php echo e(__('Feliz7Play', 'iasd')); ?>" title="<?php echo e(__('Feliz7Play', 'iasd')); ?>" class="img-fluid">
