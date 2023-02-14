@@ -286,14 +286,18 @@ abstract class AS3CF_Filter {
 
 			$url = $src[1];
 
+			if ( ! AS3CF_Utils::usable_url( $url ) ) {
+				continue;
+			}
+
 			if ( ! $this->url_needs_replacing( $url ) ) {
 				// URL already correct, skip
 				continue;
 			}
 
-			$url = AS3CF_Utils::reduce_url( $url );
+			$bare_url = AS3CF_Utils::reduce_url( $url );
 
-			$item_sources[ $url ] = array(
+			$item_sources[ $bare_url ] = array(
 				'id'          => absint( $class_id[1] ),
 				'source_type' => Media_Library_Item::source_type(),
 			);
@@ -348,20 +352,12 @@ abstract class AS3CF_Filter {
 		foreach ( $matches as $url ) {
 			$url = preg_replace( '/[^a-zA-Z0-9]$/', '', $url );
 
+			if ( ! AS3CF_Utils::usable_url( $url ) ) {
+				continue;
+			}
+
 			if ( ! $this->url_needs_replacing( $url ) ) {
 				// URL already correct, skip
-				continue;
-			}
-
-			$parts = AS3CF_Utils::parse_url( $url );
-
-			if ( ! isset( $parts['path'] ) ) {
-				// URL doesn't have a path, continue
-				continue;
-			}
-
-			if ( ! pathinfo( $parts['path'], PATHINFO_EXTENSION ) ) {
-				// URL doesn't have a file extension, continue
 				continue;
 			}
 
@@ -440,8 +436,12 @@ abstract class AS3CF_Filter {
 	 *
 	 * @return bool
 	 */
-	public function item_matches_src( $item_source, $url ) {
-		if ( Item::is_empty_item_source( $item_source ) || Media_Library_Item::source_type() !== $item_source['source_type'] ) {
+	public function item_matches_src( array $item_source, string $url ): bool {
+		if (
+			Item::is_empty_item_source( $item_source ) ||
+			Media_Library_Item::source_type() !== $item_source['source_type'] ||
+			get_post_type( $item_source['id'] ) !== 'attachment'
+		) {
 			return false;
 		}
 		$meta = get_post_meta( $item_source['id'], '_wp_attachment_metadata', true );
@@ -599,9 +599,7 @@ abstract class AS3CF_Filter {
 	 * Get post cache
 	 *
 	 * @param null|int|WP_Post $post           Optional. Post ID or post object. Defaults to current post.
-	 * @param bool             $transform_ints Optional. If true (default), convert integer hits to array with id and source_type keys.
-	 *                                         If false, return integer hits as integers
-	 *
+	 * @param bool             $transform_ints Optional. If true (default), convert integer hits to array with id and source_type keys. If false, return integer hits as integers
 	 *
 	 * @return array|int
 	 */
@@ -644,7 +642,7 @@ abstract class AS3CF_Filter {
 	 * Set the cache for the given post.
 	 *
 	 * @param null|int|WP_Post $post Optional. Post ID or post object. Defaults to current post.
-	 * @param                  $data
+	 * @param mixed            $data
 	 */
 	protected function set_post_cache( $post, $data ) {
 		$post_id = AS3CF_Utils::get_post_id( $post );
@@ -664,7 +662,7 @@ abstract class AS3CF_Filter {
 	/**
 	 * Set the option cache with the given data.
 	 *
-	 * @param $data
+	 * @param mixed $data
 	 */
 	protected function set_option_cache( $data ) {
 		if ( wp_using_ext_object_cache() ) {
