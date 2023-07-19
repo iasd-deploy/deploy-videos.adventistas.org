@@ -212,6 +212,22 @@ function rsssl_general_security_notices( $notices ) {
 		),
 	);
 
+	$notices['vulnerabilities'] = array(
+		'condition' => ['NOT option_enable_vulnerability_scanner'],
+		'callback' => '_true_',
+		'score' => 5,
+		'output' => array(
+			'true' => array(
+				'msg' => __("Really Simple SSL has a new feature! Introducing Vulnerability Detection, enable it now.", "really-simple-ssl"),
+				'icon' => 'open',
+				'dismissible' => true,
+				'url' => 'https://really-simple-ssl.com/vulnerability-detection/',
+				'highlight_field_id' => 'enable_vulnerability_scanner',
+				'plusone' => true,
+			),
+		),
+	);
+
 //	$notices['xmlrpc'] = array(
 //		'callback' => 'rsssl_xmlrpc_allowed',
 //		'score' => 10,
@@ -268,6 +284,19 @@ function rsssl_general_security_notices( $notices ) {
 			),
 		),
 	);
+
+//	$notices['login-url-not-working'] = array(
+//		'callback' => 'NOT rsssl_new_login_url_working',
+//		'score' => 5,
+//		'output' => array(
+//			'true' => array(
+//				'msg' => __("Your new login URL does not seem to work. Still using /wp-admin and /wp-login.php.", "really-simple-ssl"),
+//				'url' => 'https://really-simple-ss.com/',
+//				'icon' => 'warning',
+//				'dismissible' => true,
+//			),
+//		),
+//	);
 
 	return $notices;
 }

@@ -52,7 +52,7 @@ if ( !function_exists('rsssl_admin_url')) {
 	 * @return string|null
 	 */
 	function rsssl_admin_url(){
-		return is_multisite() && is_network_admin() ? network_admin_url('settings.php') : admin_url("options-general.php");
+		return is_multisite() ? network_admin_url('settings.php') : admin_url("options-general.php");
 	}
 }
 
@@ -348,9 +348,21 @@ function rsssl_gather_warning_blocks_for_mail( array $changed_fields ){
 		return;
 	}
 
-	$fields = array_filter($changed_fields, static function($field) {
-		return isset( $field['email']['message'] ) && $field['value'];
-	});
+    $fields = array_filter($changed_fields, static function($field) {
+        // Check if email_condition exists and call the function, else assume true
+	    if ( !isset($field['email']['condition']) ) {
+			$email_condition_result = true;
+	    } else if (is_array($field['email']['condition'])) {
+			//rsssl option check
+		    $fieldname = array_key_first($field['email']['condition']);
+			$value = $field['email']['condition'][$fieldname];
+			$email_condition_result = rsssl_get_option($fieldname) === $value;
+	    } else {
+			//function check
+		    $email_condition_result = call_user_func($field['email']['condition']);
+	    }
+        return isset($field['email']['message']) && $field['value'] && $email_condition_result;
+    });
 
 	if ( count($fields)===0 ) {
 		return;
