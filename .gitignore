@@ -5,3 +5,9 @@ update.sh
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 processa.php
+/mysql/
+/app/pt/wp-content/uploads/.bladecache/*
+config/default-ssl.conf
+config/docker-entrypoint.sh
+config/certs/cert.crt
+config/certs/key.key
