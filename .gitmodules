@@ -1,12 +1,12 @@
-[submodule "app/pt/wp-content/themes/pa-theme-sedes"]
-	path = app/pt/wp-content/themes/pa-theme-sedes
-	url = git@github.com:igrejaadventista/PA-Theme-Sedes.git
 [submodule "app/es/wp-content/themes/pa-theme-sedes"]
 	path = app/es/wp-content/themes/pa-theme-sedes
-	url = git@github.com:igrejaadventista/PA-Theme-Sedes.git
+url=https://github.com/igrejaadventista/pa-theme-sedes.git
 [submodule "app/es/wp-content/themes/pa-theme-videos"]
 	path = app/es/wp-content/themes/pa-theme-videos
-	url = git@github.com:igrejaadventista/pa-thema-videos.git
+url=https://github.com/igrejaadventista/pa-theme-videos.git
 [submodule "app/pt/wp-content/themes/pa-theme-videos"]
 	path = app/pt/wp-content/themes/pa-theme-videos
-	url = git@github.com:igrejaadventista/pa-thema-videos.git
+	url = https://github.com/igrejaadventista/pa-theme-videos.git
+[submodule "app/pt/wp-content/themes/pa-theme-sedes"]
+	path = app/pt/wp-content/themes/pa-theme-sedes
+	url = https://github.com/igrejaadventista/pa-theme-sedes.git
