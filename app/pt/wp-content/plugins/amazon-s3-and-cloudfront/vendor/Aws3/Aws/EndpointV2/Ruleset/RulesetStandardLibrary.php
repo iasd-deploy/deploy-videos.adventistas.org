@@ -135,6 +135,9 @@ class RulesetStandardLibrary
      */
     public function parseUrl($url)
     {
+        if (\is_null($url)) {
+            return null;
+        }
         $parsed = \parse_url($url);
         if ($parsed === \false || !empty($parsed['query'])) {
             return null;
@@ -255,7 +258,7 @@ class RulesetStandardLibrary
         if ($funcName === 'isSet') {
             $funcName = 'is_set';
         }
-        $result = \call_user_func_array(['DeliciousBrains\\WP_Offload_Media\\Aws3\\Aws\\EndpointV2\\Ruleset\\RulesetStandardLibrary', $funcName], $funcArgs);
+        $result = \call_user_func_array([RulesetStandardLibrary::class, $funcName], $funcArgs);
         if (isset($funcCondition['assign'])) {
             $assign = $funcCondition['assign'];
             if (isset($inputParameters[$assign])) {
