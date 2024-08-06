@@ -3,12 +3,13 @@ import { __ } from '@wordpress/i18n';
 import Icon from "../../utils/Icon";
 import useSslLabs from "./SslLabsData";
 import {getRelativeTime} from "../../utils/formatting";
+import {addUrlRef} from "../../utils/AddUrlRef";
 const ScoreElement = ({className, content, id}) => {
     const [hover, setHover] = useState(false);
 
     let hoverClass = hover ? 'rsssl-hover' : '';
     return (
-        <div key={id} className="rsssl-score-container"><div
+        <div key={'score_container-'+id} className="rsssl-score-container"><div
             onMouseEnter={()=> setHover(true)}
             onMouseLeave={() => setHover(false)}
             className={"rsssl-score-snippet "+className+' '+hoverClass}>{content}</div></div>
@@ -315,7 +316,7 @@ const SslLabs = () => {
                             {hasErrors && errorMessage}
                             {!hasErrors && __('What does my score mean?', 'really-simple-ssl')}
                         </p>
-                        <a href="https://really-simple-ssl.com/instructions/about-ssl-labs/" target="_blank">
+                        <a href={addUrlRef("https://really-simple-ssl.com/instructions/about-ssl-labs/")} target="_blank" rel="noopener noreferrer">
                             {__('Read more', 'really-simple-ssl')}
                         </a>
                     </div>
@@ -329,7 +330,7 @@ const SslLabs = () => {
                     </div>
                     { <div className="rsssl-ssl-labs-list-item">
                         <Icon name="external-link" color="black"/>
-                        <a href={url} target="_blank">{__('View detailed report on Qualys SSL Labs', 'really-simple-ssl')}</a>
+                        <a href={url} target="_blank" rel="noopener noreferrer">{__('View detailed report on Qualys SSL Labs', 'really-simple-ssl')}</a>
                     </div> }
                 </div>
             </div>

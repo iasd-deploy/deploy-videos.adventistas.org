@@ -10,10 +10,11 @@ import { __ } from '@wordpress/i18n';
 import Icon from "../utils/Icon";
 import useFields from "../Settings/FieldsData";
 import useLetsEncryptData from "./letsEncryptData";
+import DOMPurify from "dompurify";
 
-const LetsEncrypt = (props) => {
+const LetsEncrypt = ({field}) => {
     const {handleNextButtonDisabled, getFieldValue} = useFields();
-    const {actionsList, setActionsList, setActionsListItem, setActionsListProperty, actionIndex, setActionIndex, attemptCount, setAttemptCount, progress, setProgress, refreshTests, setRefreshTests} = useLetsEncryptData();
+    const {setSwitchButtonDisabled, actionsList, setActionsList, setActionsListItem, setActionsListProperty, actionIndex, setActionIndex, attemptCount, setAttemptCount, progress, setProgress, refreshTests, setRefreshTests} = useLetsEncryptData();
     const sleep = useRef(1000);
     const intervalId = useRef(false);
     const previousActionIndex = useRef(-1);
@@ -23,11 +24,15 @@ const LetsEncrypt = (props) => {
 
     useEffect(() => {
         reset();
-   }, [props.field.id])
+   }, [field.id])
+
+    useEffect(() => {
+        setSwitchButtonDisabled(true);
+    }, []);
 
     const getActions = () => {
-        let propActions = props.field.actions;
-        if ( props.field.id==='generation' ) {
+        let propActions = field.actions;
+        if ( field.id==='generation' ) {
             propActions = adjustActionsForDNS(propActions);
         }
 
@@ -36,15 +41,21 @@ const LetsEncrypt = (props) => {
     }
 
     useEffect(() => {
+
+        handleNextButtonDisabled(false);
         if ( actionsList.length>0 && actionIndex===-1){
             setActionIndex(0);
             runTest(0, 0);
         }
+        return () => {
+            // Perform any cleanup logic here if needed
+            // For example, you can cancel any ongoing asynchronous tasks or subscriptions
+        };
     }, [actionsList])
 
     useEffect(() => {
-        // startInterval();
-    }, [])
+        console.log('actionIndex', actionIndex, maxIndex.current);
+    }, [actionIndex, maxIndex.current]);
 
     const startInterval = () => {
         intervalId.current = setInterval(() => {
@@ -100,9 +111,8 @@ const LetsEncrypt = (props) => {
     };
 
     const reset = () => {
-        // clearInterval(intervalId.current);
-        // startInterval();
-        handleNextButtonDisabled(true);
+        setSwitchButtonDisabled(true);
+        // handleNextButtonDisabled(true);
         setActionsList(getActions());
         setProgress(0);
         refProgress.current = 0;
@@ -158,7 +168,8 @@ const LetsEncrypt = (props) => {
             if (!Number.isInteger(action.attemptCount)) {
                 setAttemptCount(0);
             }
-            setAttemptCount(attemptCount+1);
+            //ensure attemptCount is an integer
+            setAttemptCount( parseInt(attemptCount) + 1 );
         }
 
         //used for dns verification actions
@@ -173,7 +184,8 @@ const LetsEncrypt = (props) => {
                 }
             });
             setActionIndex(maxIndex.current+1);
-            handleNextButtonDisabled(false);
+            setSwitchButtonDisabled(false);
+            // handleNextButtonDisabled(false);
         } else if ( action.do === 'continue' || action.do === 'skip' ) {
             //new action, so reset the attempts count
             setAttemptCount(1);
@@ -187,17 +199,20 @@ const LetsEncrypt = (props) => {
                 await runTest(newActionIndex+1);
             } else {
                 setActionIndex(newActionIndex+1);
-                handleNextButtonDisabled(false);
-
+                setSwitchButtonDisabled(false);
+                // handleNextButtonDisabled(false);
             }
         } else if (action.do === 'retry' ) {
             if ( attemptCount >= action.attempts ) {
+                setSwitchButtonDisabled(false);
                 setActionIndex(maxIndex.current);
             } else {
+                setSwitchButtonDisabled(false);
                 setActionIndex(newActionIndex);
                 await runTest(newActionIndex);
             }
         } else if ( action.do === 'stop' ){
+            setSwitchButtonDisabled(false);
             setActionIndex(maxIndex.current);
         }
     }
@@ -207,7 +222,7 @@ const LetsEncrypt = (props) => {
         if (!currentAction) return;
         let  test = currentAction.action;
         const startTime = new Date();
-        await rsssl_api.runLetsEncryptTest(test, props.field.id ).then( ( response ) => {
+        await rsssl_api.runLetsEncryptTest(test, field.id ).then( ( response ) => {
             const endTime = new Date();
             let timeDiff = endTime - startTime; //in ms
             const elapsedTime = Math.round(timeDiff);
@@ -247,7 +262,7 @@ const LetsEncrypt = (props) => {
         return statuses[action.status].color;
     }
 
-    if ( !props.field.actions ) {
+    if ( !field.actions ) {
         return (<></>);
     }
 
@@ -277,18 +292,18 @@ const LetsEncrypt = (props) => {
                                   <Icon name = {getStatusIcon(action)} color = {getStatusColor(action)} />
                                         {action.do==='retry' && attemptCount >=1 && <>{__("Attempt %s.", "really-simple-ssl").replace('%s', attemptCount)} </>}
                                         &nbsp;
-                                        <span dangerouslySetInnerHTML={{__html:action.description}}></span>
+                                        <span dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(action.description) }}></span> {/* nosemgrep: react-dangerouslysetinnerhtml */}
                                     </li>
 
                             )
                         }
                     </ul>
                 </div>
-                {props.field.id === 'directories' && <Directories field={props.field} action={action}/> }
-                {props.field.id === 'dns-verification' && <DnsVerification field={props.field} action={action}/> }
-                {props.field.id === 'generation' && <Generation field={props.field} action={action}/> }
-                {props.field.id === 'installation' && <Installation field={props.field} action={action}/> }
-                {props.field.id === 'activate' && <Activate field={props.field} action={action}/> }
+                {field.id === 'directories' && <Directories field={field} action={action}/> }
+                {field.id === 'dns-verification' && <DnsVerification field={field} action={action}/> }
+                {field.id === 'generation' && <Generation field={field} action={action}/> }
+                {field.id === 'installation' && <Installation field={field} action={action}/> }
+                {field.id === 'activate' && <Activate field={field} action={action}/> }
             </div>
         </>
     )

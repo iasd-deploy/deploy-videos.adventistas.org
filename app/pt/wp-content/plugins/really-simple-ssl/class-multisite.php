@@ -26,9 +26,6 @@ if (!class_exists('rsssl_multisite')) {
                 add_action('network_admin_notices', array($this, 'show_notices'), 10);
             }
 
-            $plugin = rsssl_plugin;
-	        add_filter( "network_admin_plugin_action_links_$plugin", array($this, 'plugin_settings_link') );
-
             //If WP version is 5.1 or higher, use wp_insert_site hook for multisite SSL activation in new blogs
             if( version_compare(get_bloginfo('version'),'5.1', '>=') ) {
                 add_action('wp_initialize_site', array($this, 'maybe_activate_ssl_in_new_blog'), 20, 1);
@@ -202,35 +199,6 @@ if (!class_exists('rsssl_multisite')) {
 	    }
 
 	    /**
-         * Add settings link on plugins overview page
-	     *
-	     * @param array $links
-         *
-         * @return array
-	     * @since  2.0
-	     * @access public
-	     */
-
-	    public function plugin_settings_link(array $links): array {
-		    if ( !rsssl_user_can_manage() ) {
-			    return $links;
-		    }
-
-		    $url = add_query_arg(array('page' => 'really-simple-security'), network_admin_url('settings.php') );
-		    $settings_link = '<a href="' . $url . '">' . __("Settings", "really-simple-ssl") . '</a>';
-		    array_unshift($links, $settings_link);
-
-		    $support = apply_filters('rsssl_support_link', '<a target="_blank" href="https://wordpress.org/support/plugin/really-simple-ssl/">' . __('Support', 'really-simple-ssl') . '</a>');
-		    array_unshift($links, $support);
-
-		    if ( ! defined( 'rsssl_pro_version' ) ) {
-			    $upgrade_link = '<a style="color:#2271b1;font-weight:bold" target="_blank" href="https://really-simple-ssl.com/pro/?mtm_campaign=settings&mtm_kwd=multisite&mtm_source=free&mtm_content=upgrade">' . __( 'Improve security - Upgrade', 'really-simple-ssl' ) . '</a>';
-			    array_unshift( $links, $upgrade_link );
-		    }
-		    return $links;
-	    }
-
-	    /**
          * When a new site is added, maybe activate SSL as well.
          *
 	     * @param int  $blog_id
@@ -284,11 +252,10 @@ if (!class_exists('rsssl_multisite')) {
 	        }
 	        $count = RSSSL()->admin->count_plusones();
 	        $update_count = $count > 0 ? "<span class='update-plugins rsssl-update-count'><span class='update-count'>$count</span></span>" : "";
-
 	        $page_hook_suffix = add_submenu_page(
 				'settings.php',
-				"SSL",
-				"SSL".$update_count,
+				__("SSL & Security","really-simple-ssl"),
+		        __("SSL & Security","really-simple-ssl").' '.$update_count,
 				'manage_security',
 				"really-simple-security",
 				'rsssl_settings_page'
@@ -571,23 +538,19 @@ if (!class_exists('rsssl_multisite')) {
         /**
          * Test if a domain has a subfolder structure
          *
-         * @since  2.2
-         *
          * @param string $domain
          *
-         * @access private
+         * @access public
          *
          * @return bool
+         * @since  2.2
+         *
          */
 
-        public function is_subfolder($domain)
-        {
+        public function is_subfolder(string $domain): bool {
             //remove slashes of the http(s)
             $domain = preg_replace("/(http:\/\/|https:\/\/)/", "", $domain);
-            if ( strpos($domain, "/") !== FALSE ) {
-                return true;
-            }
-            return false;
+	        return strpos( $domain, "/" ) !== false;
         }
 
         /**
@@ -607,7 +570,9 @@ if (!class_exists('rsssl_multisite')) {
 
             //prevent showing the review on edit screen, as gutenberg removes the class which makes it editable.
             $screen = get_current_screen();
-	        if ( $screen && $screen->base === 'post' ) return;
+	        if ( $screen && $screen->base === 'post' ) {
+				return;
+	        }
 
 	        if ( !$this->is_settings_page() ) {
 		        $notices = RSSSL()->admin->get_notices_list( array('admin_notices'=>true) );

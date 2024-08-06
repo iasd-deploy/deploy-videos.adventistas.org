@@ -4,8 +4,10 @@ import * as rsssl_api from "../../utils/api";
 import {__} from "@wordpress/i18n";
 import {produce} from "immer";
 import React from "react";
+import {addUrlRef} from "../../utils/AddUrlRef";
 
 const UseRiskData = create((set, get) => ({
+
     dummyRiskData: [
         {id:'force_update',name:'Force Update',value:'l',description:__('Force update the plugin or theme','really-simple-ssl')},
         {id:'quarantine',name:'Quarantine',value:'m',description:__('Isolates the plugin or theme if no update can be performed','really-simple-ssl')},
@@ -26,12 +28,13 @@ const UseRiskData = create((set, get) => ({
     lastChecked: '', //for storing the last time the data was checked
     vulEnabled: false, //for storing the status of the vulnerability scan
     riskNaming: {}, //for storing the risk naming
-    introCompleted: false, //for storing the status of the first run
     vulList: [], //for storing the list of vulnerabilities
     setDataLoaded: (value) => set({dataLoaded: value}),
     //update Risk Data
     updateRiskData: async (field, value) => {
+        if (get().processing) return;
         set({processing:true});
+
         set(
             produce((state) => {
                 let index = state.riskData.findIndex((item) => item.id === field);
@@ -48,9 +51,7 @@ const UseRiskData = create((set, get) => ({
         } catch (e) {
             console.log(e);
         }
-    },
-    setIntroCompleted: (value) => {
-        set({introCompleted: value});
+        set({processing:false})
     },
     enforceCascadingRiskLevels: (data) => {
         if (data.length===0) return data;
@@ -82,13 +83,18 @@ const UseRiskData = create((set, get) => ({
         return data;
     },
     fetchFirstRun: async () => {
+        if (get().processing) return;
+        set({processing:true});
         await rsssl_api.doAction('vulnerabilities_scan_files');
+        set({processing:false});
     },
 
     /*
     * Functions
      */
     fetchVulnerabilities: async () => {
+        if (get().processing) return;
+        set({processing:true});
         let data = {};
         try {
             const fetched = await rsssl_api.doAction('hardening_data', data);
@@ -103,11 +109,12 @@ const UseRiskData = create((set, get) => ({
                 }
                 vulList.forEach(function (item, i) {
                     let updateUrl = item.update_available ? rsssl_settings.plugins_url + "?plugin_status=upgrade" : '#settings/vulnerabilities';
-                    item.vulnerability_action = <div className="rsssl-vulnerability-action">
-                        <a className="button" href={"https://really-simple-ssl.com/vulnerabilities/" + item.rss_identifier}
-                           target={"_blank"}>{__("Details", "really-simple-ssl")}</a>
+                    item.vulnerability_action = <div className="rsssl-action-buttons">
+                        <a className="rsssl-button button-secondary"
+                            href={addUrlRef("https://really-simple-ssl.com/vulnerability/" + item.rss_identifier)}
+                           target={"_blank"}  rel="noopener noreferrer">{__("Details", "really-simple-ssl")}</a>
                         <a disabled={!item.update_available} href={updateUrl}
-                           className="button button-primary"
+                           className="rsssl-button button-primary"
                         >{__("Update", "really-simple-ssl")}</a>
                     </div>
                 });
@@ -125,6 +132,7 @@ const UseRiskData = create((set, get) => ({
                     state.lastChecked = fetched.data.lastChecked;
                     state.vulEnabled = fetched.data.vulEnabled;
                     state.riskData = riskData;
+                    state.processing = false;
                 })
             )
         } catch (e) {
@@ -177,15 +185,11 @@ const UseRiskData = create((set, get) => ({
     },
 
     activateVulnerabilityScanner: async () => {
-        let data = {};
         try {
             const fetched = await rsssl_api.doAction('rsssl_scan_files');
             if (fetched.request_success) {
                 //we get the data again
-                const run = async () => {
-                    await get().fetchVulnerabilities();
-                }
-                run();
+                await get().fetchVulnerabilities();
             }
 
         } catch (e) {

@@ -1,7 +1,8 @@
-import {Button, TextareaControl,} from '@wordpress/components';
+import {TextareaControl,} from '@wordpress/components';
 import {__} from '@wordpress/i18n';
 import * as rsssl_api from "../utils/api";
 import {useState} from "@wordpress/element";
+import {addUrlRef} from "../utils/AddUrlRef";
 
 const Support = () => {
     const [message, setMessage] = useState('');
@@ -22,8 +23,9 @@ const Support = () => {
             + '&scanresults=' + encodeURIComponent(response.scan_results)
             + '&licensekey=' + encodeURIComponent(response.license_key)
             + '&supportrequest=' + encodeURIComponent(encodedMessage)
-            + '&htaccesscontents=' + response.htaccess_contents
-            + '&debuglog=' + response.system_status;
+            + '&htaccesscontents=' + encodeURIComponent(response.htaccess_contents)
+            + '&debuglog=' + encodeURIComponent(response.system_status);
+            url = addUrlRef(url);
             window.location.assign(url);
         });
     }
@@ -36,12 +38,12 @@ const Support = () => {
                     placeholder={__("Type your question here","really-simple-ssl")}
                     onChange={ ( message ) => onChangeHandler(message) }
             />
-            <Button
+            <button
+                className={"button button-secondary"}
                 disabled={disabled}
-                variant="secondary"
                 onClick={ ( e ) => onClickHandler(e) }>
                 { __( 'Send', 'really-simple-ssl' ) }
-            </Button>
+            </button>
         </>
     );
 
