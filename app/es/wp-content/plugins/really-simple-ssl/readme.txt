@@ -1,21 +1,21 @@
-=== Really Simple SSL - Simple and Lightweight Security ===
-Contributors: RogierLankhorst, markwolters, hesseldejong, vicocotea, marcelsanting, janwoostendorp
+=== Really Simple Security - Simple and Performant Security (formerly Really Simple SSL)===
+Contributors: RogierLankhorst, markwolters, hesseldejong, vicocotea, marcelsanting, janwoostendorp, wimbraam
 Donate link: https://www.paypal.me/reallysimplessl
-Tags: Security, SSL, https, HSTS, mixed content
+Tags: security, ssl, 2fa, vulnerabilities, two factor
 Requires at least: 5.9
 License: GPL2
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 8.1.6
+Stable tag: 9.3.5
 
-Easily improve site security with WordPress hardening, vulnerability detection and SSL certificate generation.
+Easily improve site security with WordPress Hardening, Two-Factor Authentication (2FA), Login Protection, Vulnerability Detection and SSL certificate.
 
 == Description ==
 
-=== Really simple, effective and lightweight WordPress Security ===
-Really Simple SSL is the most lightweight and easy-to-use security plugin for WordPress. It lays the foundation of your WordPress website's security by leveraging your SSL certificate, scanning for possible vulnerabilities and implementing essential WordPress hardening features.
+=== Really simple, Effective and Performant WordPress Security ===
+Really Simple Security is the most lightweight and easy-to-use security plugin for WordPress. It secures your WordPress website with SSL certificate generation, properly enforcing en redirecting to https, scanning for possible vulnerabilities, Login Protection and implementing essential WordPress hardening features.
 
-We believe that security should have the absolute minimum effect on website performance, user experience and maintainability. Therefore, Really Simple SSL is:
+We believe that security should have the absolute minimum effect on website performance, user experience and maintainability. Therefore, Really Simple Security is:
 
 * **Lightweight:** Every security feature is developed with a modular approach and with performance in mind. Disabled features won't load any redundant code.
 * **Easy-to-use:** 1-minute configuration with short onboarding setup.
@@ -43,12 +43,23 @@ Tweak your configuration and keep WordPress fortified and safe by tackling poten
 = Vulnerability Detection =
 Get notified when plugins, themes or WP core contain vulnerabilities and need appropriate action.
 
-=== Improve Security with Really Simple SSL Pro ===
-[Protect your site with all essential security features by upgrading to Really Simple SSL Pro.](https://really-simple-ssl.com/)
+= Login Protection =
+Allow or enforce Two-Factor Authentication (2FA) for specific user roles. Users receive a two-factor code via Email.
+
+=== Improve Security with Really Simple Security Pro ===
+[Protect your site with all essential security features by upgrading to Really Simple Security Pro.](https://really-simple-ssl.com/)
 
 = Advanced SSL enforcement =
 * Mixed Content Scan & Fixer. Detect files that are requested over HTTP and fix it, both Front- and Back-end.
 * Enable HTTP Strict Transport Security and configure your site for the HSTS Preload list.
+
+= Firewall =
+Really Simple Security Pro includes a performant and efficient WordPress firewall, to stop bots, crawlers and bad actors with IP and username blocks.
+
+* 404 blocking - Blocks crawlers as they trigger unusual numbers of 404 errors.
+* Region blocking - Only allow/block access to your site from specific regions.
+* Automated and customisable Firewall rules.
+* IP blocklist and allowlist.
 
 = Security Headers =
 Security headers protect your site visitors against the risk of clickjacking, cross-site-forgery attacks, stealing login credentials and malware.
@@ -61,7 +72,7 @@ Security headers protect your site visitors against the risk of clickjacking, cr
 When a vulnerability is detected in a plugin, theme or WordPress core you will get notified accordingly. With Vulnerability Measures, you can configure simple but effective measures to make sure that a critical vulnerability won't remain unattended.
 
 * Force update: An update process will be tried multiple times until it can be assumed development of a theme or plugin is abandoned. You will be notified during these steps.
-* Quarantine: When a plugin or theme can't be updated to solve a vulnerability, Really Simple SSL can quarantine the plugin.
+* Quarantine: When a plugin or theme can't be updated to solve a vulnerability, Really Simple Security can quarantine the plugin.
 
 = Advanced Site Hardening =
 * Choose a custom login URL
@@ -88,17 +99,17 @@ With Limit Login Attempts you can configure a threshold to temporarily or perman
 == Useful Links ==
 * [Documentation](https://really-simple-ssl.com/knowledge-base-overview/)
 * [Security Definitions](https://really-simple-ssl.com/definitions/)
-* [Translate Really Simple SSL](https://translate.wordpress.org/projects/wp-plugins/really-simple-ssl)
+* [Translate Really Simple Security](https://translate.wordpress.org/projects/wp-plugins/really-simple-ssl)
 * [Issues & pull requests](https://github.com/Really-Simple-Plugins/really-simple-ssl/issues)
-* [Feature requests](https://really-simple-ssl.com/feature-requests/)
+* [Feature requests](https://github.com/Really-Simple-Plugins/really-simple-ssl/labels/feature%20request)
 
-== Love Really Simple SSL? ==
-If you want to support the continuing development of this plugin, please consider buying [Really Simple SSL Pro](https://www.really-simple-ssl.com/pro/), which includes some excellent security features and premium support.
+== Love Really Simple Security? ==
+If you want to support the continuing development of this plugin, please consider buying [Really Simple Security Pro](https://www.really-simple-ssl.com/pro/), which includes some excellent security features and premium support.
 
 == About Really Simple Plugins ==
-Our mission is to make complex WordPress requirements really easy. Really Simple SSL is developed by [Really Simple Plugins](https://www.really-simple-plugins.com).
+Our mission is to make complex WordPress requirements really easy. Really Simple Security is developed by [Really Simple Plugins](https://www.really-simple-plugins.com).
 
-For generating SSL certificates, Really Simple SSL uses the [le acme2 PHP](https://github.com/fbett/le-acme2-php/) Let's Encrypt client library, thanks to 'fbett' for providing it. Vulnerability Detection uses WP Vulnerability, an open-source initiative by Javier Casares. Want to join as a collaborator? We're on [GitHub](https://github.com/really-simple-plugins/really-simple-ssl) as well!
+For generating SSL certificates, Really Simple Security uses the [le acme2 PHP](https://github.com/fbett/le-acme2-php/) Let's Encrypt client library, thanks to 'fbett' for providing it. Vulnerability Detection uses WP Vulnerability, an open-source initiative by Javier Casares. Want to join as a collaborator? We're on [GitHub](https://github.com/really-simple-plugins/really-simple-ssl) as well!
 
 == Installation ==
 To install this plugin:
@@ -107,17 +118,26 @@ To install this plugin:
 2. Download the plugin.
 3. Upload the plugin to the /wp-content/plugins/ directory.
 4. Go to "Plugins" in your WordPress admin, then click "Activate".
-5. You will now see the Really Simple SSL onboarding process, to quickly help you through the configuration process.
+5. You will now see the Really Simple Security onboarding process, to quickly help you through the configuration process.
 
 == Frequently Asked Questions ==
 = Knowledge Base =
-For more detailed explanations and documentation on all Really Simple SSL features, please search the [Knowledge Base](https://www.really-simple-ssl.com/knowledge-base/)
+For more detailed explanations and documentation on all Really Simple Security features, please search the [Knowledge Base](https://www.really-simple-ssl.com/knowledge-base/)
+
+= What happened with Really Simple SSL? =
+All features that made Really Simple SSL the most powerful and easy-to-use SSL plugin are still part of Really Simple Security. The plugin is developed with a modular approach: if you don't want to use the full set of security features, the unused code will not be loaded and won't have any effect on your site's performance.
+
+= Why Really Simple Security? =
+In our experience, security solutions for WordPress are often hard to configure, trigger many false positives and have a significant impact on site performance. We have been receiving requests from our users to simplify WordPress security for years, so that has become our mission!
+
+= I want to share my feedback or contribute to Really Simple Security =
+You couldn't make us happier! Really Simple Security is GPL licensed and co-created by the WordPress community. All feedback is highly appreciated and has always helped us to better understand users' needs. For code contributions or suggestions, we're on [GitHub](https://github.com/really-simple-plugins/really-simple-ssl). For suggestions, please [open a support ticket](https://wordpress.org/support/plugin/really-simple-ssl/) You can also express your appreciation by [leaving a review](https://wordpress.org/support/plugin/really-simple-ssl/reviews/).
 
 = Mixed Content issues =
 Most mixed content issues are caused by URLs in CSS or JS files. For detailed instructions on how to find mixed content read this [article](https://really-simple-ssl.com/knowledge-base/how-to-track-down-mixed-content-or-insecure-content/).
 
 = Generating a Let's Encrypt SSL Certificate =
-We added the possibility to generate a Free SSL Certificate with Let's Encrypt in our Really Simple SSL Wizard. We have an updated list available for all possible integrations [here](https://really-simple-ssl.com/install-ssl-certificate/). Please leave feedback about another integration, incorrect information, or you need help.
+We added the possibility to generate a Free SSL Certificate with Let's Encrypt in our Really Simple Security Wizard. We have an updated list available for all possible integrations [here](https://really-simple-ssl.com/install-ssl-certificate/). Please leave feedback about another integration, incorrect information, or you need help.
 
 = Redirect loop issues =
 If you are experiencing redirect loops on your site, try these [instructions](https://really-simple-ssl.com/knowledge-base/my-website-is-in-a-redirect-loop/).
@@ -125,18 +145,119 @@ If you are experiencing redirect loops on your site, try these [instructions](ht
 = Is the plugin multisite compatible? =
 Yes. There is a dedicated network settings page where you can control settings for your entire network, at once.
 
-= Uninstalling Really Simple SSL =
+= Uninstalling Really Simple Security =
 The plugin checks your certificate before enabling, but if, for example, you migrated the site to a non-SSL environment, you might get locked out of the back-end.
 
 If you can't deactivate, do not just remove the plugin folder to uninstall! Follow these [instructions](https://really-simple-ssl.com/knowledge-base/uninstall-websitebackend-not-accessible/) instead.
 
 == Changelog ==
-= 8.1.6 =
-* July 29th, 2024
-* Fix: code for two modules loaded even if not enabled.
-* Improvement: added filter to write to other file than the wp-config.php
-* Improvement: added a constant which prevents inserting the .htaccess auto prepend rule
-* Improvement: several bug fixes in the Let's Encrypt generation
+= 9.3.5 =
+* April 29th, 2025
+* Improvement: Tested up to WordPress 6.8
+* Improvement: Some translation updates
+* Improvement: Check for autoloader in cron
+* Fix: 2FA methods can now be set on profile page
+
+= 9.3.3 =
+* April 2nd, 2025
+* Improvement: Added multiple WP-CLI commands to better align with recent plugin features
+* Improvement: Added support for custom/multiple roles in Two Factor Authentication
+
+= 9.3.2.1 =
+* March 20th, 2025
+* Fix: Properly handle unknown plugins in upgrade requests, preventing unintended behavior.
+
+= 9.3.2 =
+* March 5th, 2025
+* Improvement: Added filters to customize Let's Encrypt Wizard behavior
+* Fix: Removed default checkbox behavior from configuration settings.
+* Fix: Handle multiple tooltip reasons for disabled select fields
+
+= 9.3.1 =
+* February 12th, 2025
+* Improvement: Not able to use email needed functions when email is not yet verified.
+* Fix: All instruction links are now correct.
+* Fix: Undefined array key "m" when showing vulnerability details.
+* Fix: Prevent errors when downgrading to free.
+* Fix: Compatibility between 2FA and JetPack “Log in using WordPress.com account” setting
+
+= 9.2.0 =
+* January 20th, 2025
+* Fix: Added nonce check to certificate re-check button.
+* Fix: In some cases the review notice was not properly dismissible.
+
+= 9.1.4 =
+* Improvement: do not track 404's for logged in users
+* Improvement: implemented the rsssl_wpconfig_path filter in all wp-config functions
+* Improvement: Faster onboarding completion after clicking Finish button
+* Improvement: CSS. Shields in user interface on datatables are no longer cut off
+
+= 9.1.3 =
+* November 28th
+* Improvement: Width Vulnerabilities -> configuration
+* Improvement: 2Fa lockout notice
+* Improvement: catch use of short init in advanced-headers file
+* Improvement: string improvements and translator comments
+* Improvement: Bitnami support for rsssl_find_wordpress_base_path()
+* Improvement: integrate Site health notifications with Solid Security
+* Improvement: Enhanced random password generation in Rename Admin User feature
+* Improvement: Always return string in wpconfig_path() function
+* Improvement: Removes configuration options for a user in edit user.
+* Fix: Remove duplicate site URL.
+* Fix: ensure rsssl_sanitize_uri_value() function always returns a string, to prevent errors.
+* Fix: multisite users who have enabled roles couldn’t use the 2fa if an other role than theirs has been forced.
+* Fix: The ‘Skip Onboarding’ button presented an undefined page after selecting the email method as an option.
+* Fix: Update translation loading according to the new 6.7 method.
+
+= 9.1.2 =
+* security: authentication bypass
+
+= 9.1.1.1 =
+* November 5th, 2024
+*Improvement: updated black friday dates
+
+= 9.1.1 =
+* November 5th, 2024
+* Improvement: setting a rsssl-safe-mode.lock file now also enables safe mode and deactivates the Firewall, 2FA and LLA for debugging purposes.
+* Improvement: update to system status
+* Improvement: textual changes
+* Improvement: Updated instructions URLs
+* Improvement: Changed site health notices from critical to recommended
+* Improvement: dropped obsolete react library
+* Fix: fixed a bug where the 2FA grace period was kept active after a reset
+
+= 9.1.0 =
+* October 22nd
+* Improvement: Allow scanning for security headers via http://scan.really-simple-ssl.com  with one click
+* Improvement: Remove unnecessary rsssl_update_option calls.
+* Fix: prevent potential errors with login feedback..
+* Fix: Catch type error when $transients is not an array.
+
+= 9.0.2 =
+* Fix: issue with deactivating 2fa
+
+= 9.0.0 =
+* September 16th
+* Fix: Instructions URL in the Firewall settings.
+* Fix: Fixed incorrect instructions URL
+* Fix: Let's Encrypt returning an old certificate on auto-renewed certificates
+* Improvement: As the X-Frame-Options is deprecated and replaced by frame ancestors, we drop the header as recommendation.
+* Improvement: save and continue in vulnerabilities overview not working correctly
+
+= 8.3.0.1 =
+* Fix: Issues with the decryption model
+
+= 8.3.0 =
+* August 12th, 2024
+* Feature: Password security scan. This feature scans your users for weak passwords, and allows you to enforce non-compromised passwords.
+* Fix: Fixed some strings that were not translatable. This has been resolved.
+* Fix: Premium support link did not work. Now links to the correct page.
+* Improvement: Disable the cron schedules on deactivation.
+* Fix: Links in emails were sometimes not correct. This has been fixed.
+* Fix: Fatal error on permission detection. This has been resolved.
+* Improvement: Custom header for the license checks for better compatibility with some hosting environments.
+* Improvement: Added option to disable X-powered-by header.
+* Improvement: New improved encryption method for some settings.
 
 = 8.1.5 =
 * June 21th, 2024
@@ -461,6 +582,8 @@ On settings page load, the .htaccess file is no rewritten. If you have made .hta
 Always back up before any upgrade. Especially .htaccess, wp-config.php and the plugin folder. This way you can easily roll back.
 
 == Screenshots ==
-1. Your Really Simple SSL dashboard - For optimal configuration.
-2. The Server Health Check - An in-depth look at your server.
-3. New Hardening Features - Fortify your website by minimizing weaknesses.
+1. The Really Simple Security Dashboard provides a quick security overview.
+2. Enable or enforce 2FA per user role.
+3. Stay ahead of plugin, theme and WP core vulnerabilities.
+4. Harden your site’s security with Basic Hardening features.
+5. 1-minute configuration with the short security onboarding.

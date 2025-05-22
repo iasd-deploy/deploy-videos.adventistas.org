@@ -4,6 +4,10 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit();
 }
 
+if ( defined('RSSSL_UPGRADING_TO_PRO') ) {
+	exit();
+}
+
 $rsssl_settings = get_option( 'rsssl_options' );
 if ( isset( $rsssl_settings['delete_data_on_uninstall'] ) && $rsssl_settings['delete_data_on_uninstall'] ) {
 	$rsssl_options = [
@@ -99,7 +103,7 @@ if ( isset( $rsssl_settings['delete_data_on_uninstall'] ) && $rsssl_settings['de
 		'rsssl_htaccess_error',
 		'rsssl_htaccess_rules',
 		'rsssl_options',
-        'rsssl_404_cache'.
+        'rsssl_404_cache',
         'rsssl_404_notice_shown',
 		'rsssl_key',
 		'rsssl_change_detection_next_index',
@@ -109,6 +113,8 @@ if ( isset( $rsssl_settings['delete_data_on_uninstall'] ) && $rsssl_settings['de
 		'rsssl_permissions_mail_recently_sent',
 		'rsssl_permission_check_next_index',
 		'rsssl_permission_check_completed',
+		'rsssl_homepage_contains_404_resources',
+		'rsssl_pro_password_change_required_users_checked',
 	];
 	foreach ( $rsssl_options as $rsssl_option_name ) {
 		delete_option( $rsssl_option_name );
@@ -178,8 +184,6 @@ if ( isset( $rsssl_settings['delete_data_on_uninstall'] ) && $rsssl_settings['de
 		$wpdb->base_prefix . 'rsssl_xmlrpc',
 		$wpdb->base_prefix . 'rsssl_country',
 		$wpdb->base_prefix . 'rsssl_login_attempts',
-		$wpdb->base_prefix . 'rsssl_file_change_detection_directory_indexes',
-		$wpdb->base_prefix . 'rsssl_file_hashes',
 		$wpdb->base_prefix . 'rsssl_geo_block',
         $wpdb->base_prefix . 'rsssl_event_logs',
 	);
